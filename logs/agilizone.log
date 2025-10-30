@@ -1,0 +1,1780 @@
+[2025-10-30 13:29:39] [INFO] XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+[2025-10-30 13:29:39] [INFO] Iniciando automação Agilizone Hashtag...
+[2025-10-30 13:29:39] [INFO] Modo atual: PRODUÇÃO
+[2025-10-30 13:29:39] [DEBUG] Limpando arquivos CSV temporários de execuções anteriores...
+[2025-10-30 13:29:39] [DEBUG] Nenhum CSV temporário antigo encontrado.
+[2025-10-30 13:29:39] [INFO] Lendo datas do arquivo: data_param.txt
+[2025-10-30 13:29:39] [SUCCESS] Total de 1 datas carregadas para processamento.
+[2025-10-30 13:29:39] [INFO] Lendo planilha: Informes Lojas Hashtag.xlsx
+[2025-10-30 13:29:40] [SUCCESS] Planilha lida com sucesso. Total de 10 lojas processadas.
+[2025-10-30 13:29:40] [INFO] Preparando execução multithread (2 threads)...
+[2025-10-30 13:29:40] [DEBUG] Tamanhos dos lotes: [5, 5]
+[2025-10-30 13:29:40] [INFO] >>>> EXECUÇÃO MULTITHREAD PARA A DATA: 29/10/2025 <<<<
+[2025-10-30 13:29:40] [INFO] [THREAD 1] Iniciando driver otimizado...
+[2025-10-30 13:29:41] [INFO] [THREAD 1] Iniciando lote (5 lojas)...
+[2025-10-30 13:29:41] [INFO] 🧩 Etapa 1: Iniciando login e configuração da primeira loja (ARRETADO DOCES)...
+[2025-10-30 13:29:41] [INFO] Acessando portal...
+[2025-10-30 13:29:47] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:29:47] [SUCCESS] Login realizado e interface carregada.
+[2025-10-30 13:29:47] [INFO] Selecionando loja inicial: ARRETADO DOCES
+[2025-10-30 13:29:50] [INFO] [THREAD 2] Iniciando driver otimizado...
+[2025-10-30 13:29:51] [INFO] [THREAD 2] Iniciando lote (5 lojas)...
+[2025-10-30 13:29:51] [INFO] 🧩 Etapa 1: Iniciando login e configuração da primeira loja (CALORENTOS BURGUER)...
+[2025-10-30 13:29:51] [INFO] Acessando portal...
+[2025-10-30 13:30:00] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:30:00] [SUCCESS] ✅ Loja 'ARRETADO DOCES' selecionada e estável.
+[2025-10-30 13:30:00] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:30:03] [INFO] Selecionando menu inicial...
+[2025-10-30 13:30:04] [INFO] Navegando para o relatório de pedidos...
+[2025-10-30 13:30:05] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:30:05] [SUCCESS] ✅ Relatório de Pedidos acessado com sucesso.
+[2025-10-30 13:30:05] [INFO] Sincronizando interface e fechando popups antes da 1ª interação com filtros.
+[2025-10-30 13:30:08] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 13:30:08] [INFO] Popup fechado com sucesso.
+[2025-10-30 13:30:08] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:30:08] [SUCCESS] Login realizado e interface carregada.
+[2025-10-30 13:30:08] [INFO] Selecionando loja inicial: CALORENTOS BURGUER
+[2025-10-30 13:30:09] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:30:09] [INFO] 
+======================================
+[2025-10-30 13:30:09] [INFO] 🧩 Etapa 2: INICIANDO PROCESSAMENTO → ARRETADO DOCES | Data: 29/10/2025
+[2025-10-30 13:30:09] [INFO] 📅 Aplicando filtros: 29/10/2025 07:00 → 30/10/2025 07:00
+[2025-10-30 13:30:09] [INFO] Aplicando filtros: 29/10/2025 07:00 a 30/10/2025 07:00
+[2025-10-30 13:30:15] [SUCCESS] Filtros aplicados. Aguardando a recarga dos dados.
+[2025-10-30 13:30:18] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 13:30:18] [INFO] Popup fechado com sucesso.
+[2025-10-30 13:30:18] [INFO] Tentativa 1 de abrir o modal de entregas...
+[2025-10-30 13:30:18] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 13:30:20] [WARN] ⏳ Timeout: elemento não ficou clicável (xpath, //button[contains(text(), 'Resumo de entregas por entregador')])
+[2025-10-30 13:30:22] [WARN] Timeout: Botão 'Resumo de entregas' não ficou clicável ou modal não carregou. Pulando extração.
+[2025-10-30 13:30:24] [INFO] Tentativa 2 de abrir o modal de entregas...
+[2025-10-30 13:30:24] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 13:30:26] [WARN] ⏳ Timeout: elemento não ficou clicável (xpath, //button[contains(text(), 'Resumo de entregas por entregador')])
+[2025-10-30 13:30:28] [WARN] Timeout: Botão 'Resumo de entregas' não ficou clicável ou modal não carregou. Pulando extração.
+[2025-10-30 13:30:29] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:30:29] [SUCCESS] ✅ Loja 'CALORENTOS BURGUER' selecionada e estável.
+[2025-10-30 13:30:29] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:30:30] [INFO] Tentativa 3 de abrir o modal de entregas...
+[2025-10-30 13:30:30] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 13:30:33] [WARN] ⏳ Timeout: elemento não ficou clicável (xpath, //button[contains(text(), 'Resumo de entregas por entregador')])
+[2025-10-30 13:30:33] [INFO] Selecionando menu inicial...
+[2025-10-30 13:30:34] [INFO] Navegando para o relatório de pedidos...
+[2025-10-30 13:30:35] [WARN] Timeout: Botão 'Resumo de entregas' não ficou clicável ou modal não carregou. Pulando extração.
+[2025-10-30 13:30:35] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:30:35] [SUCCESS] ✅ Relatório de Pedidos acessado com sucesso.
+[2025-10-30 13:30:35] [INFO] Sincronizando interface e fechando popups antes da 1ª interação com filtros.
+[2025-10-30 13:30:37] [WARN] ⚠️ Falha após 3 tentativas de abrir o modal. Nenhuma extração realizada.
+[2025-10-30 13:30:38] [SUCCESS] 🏁 Fim do processamento de ARRETADO DOCES na data 29/10/2025.
+[2025-10-30 13:30:38] [INFO] 
+======================================
+[2025-10-30 13:30:38] [INFO] 🧩 Etapa 2: INICIANDO PROCESSAMENTO → BEBELU SANDUICHES - Glória Mall | Data: 29/10/2025
+[2025-10-30 13:30:38] [INFO] 🔄 Mudando de loja: ARRETADO DOCES → BEBELU SANDUICHES - Glória Mall
+[2025-10-30 13:30:38] [INFO] Mudando loja para: BEBELU SANDUICHES - Glória Mall (tentativa 1/2)
+[2025-10-30 13:30:38] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 13:30:38] [INFO] Popup fechado com sucesso.
+[2025-10-30 13:30:38] [DEBUG] Botão 'Mudar loja' clicado.
+[2025-10-30 13:30:39] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:30:39] [INFO] 
+======================================
+[2025-10-30 13:30:39] [INFO] 🧩 Etapa 2: INICIANDO PROCESSAMENTO → CALORENTOS BURGUER | Data: 29/10/2025
+[2025-10-30 13:30:39] [INFO] 📅 Aplicando filtros: 29/10/2025 07:00 → 30/10/2025 07:00
+[2025-10-30 13:30:39] [INFO] Aplicando filtros: 29/10/2025 07:00 a 30/10/2025 07:00
+[2025-10-30 13:30:40] [WARN] ⚠️ Timeout ao aguardar interface pós-troca de loja. Tentando estabilizar novamente...
+[2025-10-30 13:30:42] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 13:30:43] [DEBUG] Loja 'BEBELU SANDUICHES - Glória Mall' selecionada no menu.
+[2025-10-30 13:30:45] [SUCCESS] Filtros aplicados. Aguardando a recarga dos dados.
+[2025-10-30 13:30:48] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 13:30:48] [INFO] Popup fechado com sucesso.
+[2025-10-30 13:30:48] [INFO] Tentativa 1 de abrir o modal de entregas...
+[2025-10-30 13:30:48] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 13:30:48] [SUCCESS] Modal Resumo de entregas carregado.
+[2025-10-30 13:30:48] [DEBUG] Linhas encontradas na tabela: 3
+[2025-10-30 13:30:48] [DEBUG]   → Dados do modal (Controle Mestre) coletados (linhas: 3).
+[2025-10-30 13:30:49] [INFO] Popup fechado com sucesso.
+[2025-10-30 13:30:49] [INFO]   Iniciando tentativa de coleta e verificação de qualidade 1/3...
+[2025-10-30 13:30:49] [DEBUG] Grid MUI detectado para coleta.
+[2025-10-30 13:30:49] [DEBUG] Resetando grid MUI para a primeira página...
+[2025-10-30 13:30:49] [DEBUG] Grid MUI resetado (Página 1 alcançada).
+[2025-10-30 13:30:50] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:30:50] [DEBUG] Setado 'Linhas por página' para 100 (quando disponível).
+[2025-10-30 13:30:50] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:30:50] [DEBUG] Extraindo 22 linhas da página atual do MUI.
+[2025-10-30 13:30:51] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:30:51] [SUCCESS] Loja 'BEBELU SANDUICHES - Glória Mall' agora está ativa e interface estabilizada.
+[2025-10-30 13:30:51] [DEBUG] Botão 'Próxima' desabilitado — fim da paginação MUI.
+[2025-10-30 13:30:51] [SUCCESS] Coleta MUI finalizada. Total registros coletados: 22
+[2025-10-30 13:30:51] [DEBUG] Índice MUI criado com 3 chaves únicas.
+[2025-10-30 13:30:51] [DEBUG] ✅ Verificação de qualidade OK para Paulo Nepomuceno Azevedo (10 pedidos).
+[2025-10-30 13:30:51] [DEBUG] ✅ Verificação de qualidade OK para Antonio Walber Oliveira da Costa (9 pedidos).
+[2025-10-30 13:30:51] [DEBUG] Ignorando verificação de qualidade para a linha 'Total'.
+[2025-10-30 13:30:51] [DEBUG] Cruzamento concluído. Linhas produzidas: 20
+[2025-10-30 13:30:51] [SUCCESS]   ✅ SUCESSO na verificação de qualidade (Tentativa 1). Dados reconciliados.
+[2025-10-30 13:30:51] [SUCCESS]   ✅ Dados cruzados (modal × MUI) adicionados ao consolidado.
+[2025-10-30 13:30:52] [SUCCESS] 🏁 Fim do processamento de CALORENTOS BURGUER na data 29/10/2025.
+[2025-10-30 13:30:52] [INFO] 
+======================================
+[2025-10-30 13:30:52] [INFO] 🧩 Etapa 2: INICIANDO PROCESSAMENTO → CAMARAO TO GO PARANGABA | Data: 29/10/2025
+[2025-10-30 13:30:52] [INFO] 🔄 Mudando de loja: CALORENTOS BURGUER → CAMARAO TO GO PARANGABA
+[2025-10-30 13:30:52] [INFO] Mudando loja para: CAMARAO TO GO PARANGABA (tentativa 1/2)
+[2025-10-30 13:30:53] [DEBUG] Botão 'Mudar loja' clicado.
+[2025-10-30 13:30:54] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:30:55] [WARN] ⚠️ Timeout ao aguardar interface pós-troca de loja. Tentando estabilizar novamente...
+[2025-10-30 13:30:55] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:30:55] [INFO] Selecionando menu inicial...
+[2025-10-30 13:30:57] [INFO] Navegando para o relatório de pedidos...
+[2025-10-30 13:30:57] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 13:30:57] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:30:57] [SUCCESS] ✅ Relatório de Pedidos acessado com sucesso.
+[2025-10-30 13:30:58] [DEBUG] Loja 'CAMARAO TO GO PARANGABA' selecionada no menu.
+[2025-10-30 13:31:00] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 13:31:00] [INFO] Popup fechado com sucesso.
+[2025-10-30 13:31:01] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:31:01] [DEBUG] ✅ Sincronização pós-troca de loja realizada.
+[2025-10-30 13:31:01] [INFO] 📅 Aplicando filtros: 29/10/2025 07:00 → 30/10/2025 07:00
+[2025-10-30 13:31:01] [INFO] Aplicando filtros: 29/10/2025 07:00 a 30/10/2025 07:00
+[2025-10-30 13:31:07] [SUCCESS] Filtros aplicados. Aguardando a recarga dos dados.
+[2025-10-30 13:31:11] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 13:31:11] [INFO] Popup fechado com sucesso.
+[2025-10-30 13:31:11] [INFO] Tentativa 1 de abrir o modal de entregas...
+[2025-10-30 13:31:11] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 13:31:11] [SUCCESS] Modal Resumo de entregas carregado.
+[2025-10-30 13:31:11] [DEBUG] Linhas encontradas na tabela: 3
+[2025-10-30 13:31:11] [DEBUG]   → Dados do modal (Controle Mestre) coletados (linhas: 3).
+[2025-10-30 13:31:11] [INFO] Popup fechado com sucesso.
+[2025-10-30 13:31:11] [INFO]   Iniciando tentativa de coleta e verificação de qualidade 1/3...
+[2025-10-30 13:31:11] [DEBUG] Grid MUI detectado para coleta.
+[2025-10-30 13:31:11] [DEBUG] Resetando grid MUI para a primeira página...
+[2025-10-30 13:31:11] [DEBUG] Grid MUI resetado (Página 1 alcançada).
+[2025-10-30 13:31:12] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:31:12] [DEBUG] Setado 'Linhas por página' para 100 (quando disponível).
+[2025-10-30 13:31:13] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:31:13] [DEBUG] Extraindo 9 linhas da página atual do MUI.
+[2025-10-30 13:31:13] [DEBUG] Botão 'Próxima' desabilitado — fim da paginação MUI.
+[2025-10-30 13:31:13] [SUCCESS] Coleta MUI finalizada. Total registros coletados: 9
+[2025-10-30 13:31:13] [DEBUG] Índice MUI criado com 3 chaves únicas.
+[2025-10-30 13:31:13] [DEBUG] ✅ Verificação de qualidade OK para LUCIANO (2 pedidos).
+[2025-10-30 13:31:13] [DEBUG] ✅ Verificação de qualidade OK para Higo Nogueira (2 pedidos).
+[2025-10-30 13:31:13] [WARN] Não foi possível ler a contagem de pedidos (Coluna 1) para ''. Pulando verificação.
+[2025-10-30 13:31:13] [DEBUG] Cruzamento concluído. Linhas produzidas: 5
+[2025-10-30 13:31:13] [SUCCESS]   ✅ SUCESSO na verificação de qualidade (Tentativa 1). Dados reconciliados.
+[2025-10-30 13:31:13] [SUCCESS]   ✅ Dados cruzados (modal × MUI) adicionados ao consolidado.
+[2025-10-30 13:31:14] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 13:31:14] [SUCCESS] Loja 'CAMARAO TO GO PARANGABA' agora está ativa e interface estabilizada.
+[2025-10-30 13:31:14] [SUCCESS] 🏁 Fim do processamento de BEBELU SANDUICHES - Glória Mall na data 29/10/2025.
+[2025-10-30 13:31:14] [INFO] 
+======================================
+[2025-10-30 13:31:14] [INFO] 🧩 Etapa 2: INICIANDO PROCESSAMENTO → BOCA BURGUER | Data: 29/10/2025
+[2025-10-30 13:31:14] [INFO] 🔄 Mudando de loja: BEBELU SANDUICHES - Glória Mall → BOCA BURGUER
+[2025-10-30 13:31:14] [INFO] Mudando loja para: BOCA BURGUER (tentativa 1/2)
+[2025-10-30 13:31:15] [DEBUG] Botão 'Mudar loja' clicado.
+[2025-10-30 13:31:17] [WARN] ⚠️ Timeout ao aguardar interface pós-troca de loja. Tentando estabilizar novamente...
+[2025-10-30 13:31:18] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:31:19] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 13:31:19] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:31:19] [INFO] Selecionando menu inicial...
+[2025-10-30 13:31:20] [DEBUG] Loja 'BOCA BURGUER' selecionada no menu.
+[2025-10-30 13:31:20] [INFO] Navegando para o relatório de pedidos...
+[2025-10-30 13:31:21] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:31:21] [SUCCESS] ✅ Relatório de Pedidos acessado com sucesso.
+[2025-10-30 13:31:24] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 13:31:24] [INFO] Popup fechado com sucesso.
+[2025-10-30 13:31:25] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:31:25] [DEBUG] ✅ Sincronização pós-troca de loja realizada.
+[2025-10-30 13:31:25] [INFO] 📅 Aplicando filtros: 29/10/2025 07:00 → 30/10/2025 07:00
+[2025-10-30 13:31:25] [INFO] Aplicando filtros: 29/10/2025 07:00 a 30/10/2025 07:00
+[2025-10-30 13:31:28] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:31:28] [SUCCESS] Loja 'BOCA BURGUER' agora está ativa e interface estabilizada.
+[2025-10-30 13:31:31] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:31:32] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:31:32] [INFO] Selecionando menu inicial...
+[2025-10-30 13:31:33] [SUCCESS] Filtros aplicados. Aguardando a recarga dos dados.
+[2025-10-30 13:31:34] [INFO] Navegando para o relatório de pedidos...
+[2025-10-30 13:31:34] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:31:34] [SUCCESS] ✅ Relatório de Pedidos acessado com sucesso.
+[2025-10-30 13:31:36] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 13:31:36] [INFO] Popup fechado com sucesso.
+[2025-10-30 13:31:36] [INFO] Tentativa 1 de abrir o modal de entregas...
+[2025-10-30 13:31:36] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 13:31:37] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 13:31:37] [INFO] Popup fechado com sucesso.
+[2025-10-30 13:31:38] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:31:38] [DEBUG] ✅ Sincronização pós-troca de loja realizada.
+[2025-10-30 13:31:38] [INFO] 📅 Aplicando filtros: 29/10/2025 07:00 → 30/10/2025 07:00
+[2025-10-30 13:31:38] [INFO] Aplicando filtros: 29/10/2025 07:00 a 30/10/2025 07:00
+[2025-10-30 13:31:41] [WARN] ⚠️ Backdrop ainda presente antes de clicar em Resumo. Tentando forçar estabilização...
+[2025-10-30 13:31:44] [SUCCESS] Filtros aplicados. Aguardando a recarga dos dados.
+[2025-10-30 13:31:46] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 13:31:47] [WARN] ⚠️ Clique interceptado (ElementClickInterceptedException) — aguardando backdrop e tentando novamente.
+[2025-10-30 13:31:47] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 13:31:47] [INFO] Popup fechado com sucesso.
+[2025-10-30 13:31:47] [INFO] Tentativa 1 de abrir o modal de entregas...
+[2025-10-30 13:31:47] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 13:31:48] [SUCCESS] Modal Resumo de entregas carregado.
+[2025-10-30 13:31:48] [DEBUG] Linhas encontradas na tabela: 2
+[2025-10-30 13:31:48] [DEBUG]   → Dados do modal (Controle Mestre) coletados (linhas: 2).
+[2025-10-30 13:31:48] [INFO] Popup fechado com sucesso.
+[2025-10-30 13:31:48] [INFO]   Iniciando tentativa de coleta e verificação de qualidade 1/3...
+[2025-10-30 13:31:48] [DEBUG] Grid MUI detectado para coleta.
+[2025-10-30 13:31:48] [DEBUG] Resetando grid MUI para a primeira página...
+[2025-10-30 13:31:48] [DEBUG] Grid MUI resetado (Página 1 alcançada).
+[2025-10-30 13:31:50] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:31:50] [DEBUG] Setado 'Linhas por página' para 100 (quando disponível).
+[2025-10-30 13:31:50] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:31:50] [DEBUG] Extraindo 24 linhas da página atual do MUI.
+[2025-10-30 13:31:51] [DEBUG] Botão 'Próxima' desabilitado — fim da paginação MUI.
+[2025-10-30 13:31:51] [SUCCESS] Coleta MUI finalizada. Total registros coletados: 24
+[2025-10-30 13:31:51] [DEBUG] Índice MUI criado com 2 chaves únicas.
+[2025-10-30 13:31:51] [DEBUG] ✅ Verificação de qualidade OK para Matheus Linhares (7 pedidos).
+[2025-10-30 13:31:51] [WARN] Não foi possível ler a contagem de pedidos (Coluna 1) para ''. Pulando verificação.
+[2025-10-30 13:31:51] [DEBUG] Cruzamento concluído. Linhas produzidas: 8
+[2025-10-30 13:31:51] [SUCCESS]   ✅ SUCESSO na verificação de qualidade (Tentativa 1). Dados reconciliados.
+[2025-10-30 13:31:51] [SUCCESS]   ✅ Dados cruzados (modal × MUI) adicionados ao consolidado.
+[2025-10-30 13:31:52] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 13:31:52] [SUCCESS] 🏁 Fim do processamento de BOCA BURGUER na data 29/10/2025.
+[2025-10-30 13:31:52] [INFO] 
+======================================
+[2025-10-30 13:31:52] [INFO] 🧩 Etapa 2: INICIANDO PROCESSAMENTO → BRAYAN BURGER SUL | Data: 29/10/2025
+[2025-10-30 13:31:52] [INFO] 🔄 Mudando de loja: BOCA BURGUER → BRAYAN BURGER SUL
+[2025-10-30 13:31:52] [INFO] Mudando loja para: BRAYAN BURGER SUL (tentativa 1/2)
+[2025-10-30 13:31:53] [DEBUG] Botão 'Mudar loja' clicado.
+[2025-10-30 13:31:54] [WARN] ⚠️ Segunda tentativa falhou (ElementClickInterceptedException) — aplicando fallback JS.
+[2025-10-30 13:31:54] [DEBUG] ✅ Clique JS executado com sucesso: //button[contains(text(), 'Resumo de entregas por entregador')]
+[2025-10-30 13:31:54] [SUCCESS] Modal Resumo de entregas carregado.
+[2025-10-30 13:31:54] [DEBUG] Linhas encontradas na tabela: 7
+[2025-10-30 13:31:54] [DEBUG]   → Dados do modal (Controle Mestre) coletados (linhas: 7).
+[2025-10-30 13:31:55] [WARN] ⚠️ Timeout ao aguardar interface pós-troca de loja. Tentando estabilizar novamente...
+[2025-10-30 13:31:55] [WARN] ⚠️ Clique interceptado (ElementClickInterceptedException) — aguardando backdrop e tentando novamente.
+[2025-10-30 13:31:57] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 13:31:58] [DEBUG] Loja 'BRAYAN BURGER SUL' selecionada no menu.
+[2025-10-30 13:32:00] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 13:32:01] [WARN] ⚠️ Segunda tentativa falhou (ElementClickInterceptedException) — aplicando fallback JS.
+[2025-10-30 13:32:01] [DEBUG] ✅ Clique JS executado com sucesso: button[aria-label='close']
+[2025-10-30 13:32:01] [INFO] Popup fechado com sucesso.
+[2025-10-30 13:32:01] [INFO]   Iniciando tentativa de coleta e verificação de qualidade 1/3...
+[2025-10-30 13:32:01] [DEBUG] Grid MUI detectado para coleta.
+[2025-10-30 13:32:01] [DEBUG] Resetando grid MUI para a primeira página...
+[2025-10-30 13:32:02] [DEBUG] Grid MUI resetado (Página 1 alcançada).
+[2025-10-30 13:32:03] [WARN] ⚠️ Clique interceptado (ElementClickInterceptedException) — aguardando backdrop e tentando novamente.
+[2025-10-30 13:32:08] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 13:32:09] [WARN] ⚠️ Segunda tentativa falhou (ElementClickInterceptedException) — aplicando fallback JS.
+[2025-10-30 13:32:09] [DEBUG] ✅ Clique JS executado com sucesso: .//div[contains(@class,'MuiTablePagination-root')]//div[@role='combobox' or contains(@class,'MuiSelect-select')]
+[2025-10-30 13:32:16] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 13:32:16] [SUCCESS] Loja 'BRAYAN BURGER SUL' agora está ativa e interface estabilizada.
+[2025-10-30 13:32:19] [WARN] ⏳ Timeout: elemento não ficou clicável (xpath, //li[normalize-space()='100'])
+[2025-10-30 13:32:20] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:32:20] [DEBUG] Setado 'Linhas por página' para 100 (quando disponível).
+[2025-10-30 13:32:20] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:32:20] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:32:20] [DEBUG] Extraindo 100 linhas da página atual do MUI.
+[2025-10-30 13:32:21] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:32:21] [INFO] Selecionando menu inicial...
+[2025-10-30 13:32:22] [INFO] Navegando para o relatório de pedidos...
+[2025-10-30 13:32:22] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:32:22] [SUCCESS] ✅ Relatório de Pedidos acessado com sucesso.
+[2025-10-30 13:32:25] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 13:32:25] [INFO] Popup fechado com sucesso.
+[2025-10-30 13:32:26] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:32:26] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:32:26] [DEBUG] ✅ Sincronização pós-troca de loja realizada.
+[2025-10-30 13:32:26] [INFO] 📅 Aplicando filtros: 29/10/2025 07:00 → 30/10/2025 07:00
+[2025-10-30 13:32:26] [INFO] Aplicando filtros: 29/10/2025 07:00 a 30/10/2025 07:00
+[2025-10-30 13:32:27] [DEBUG] Navegando para próxima página MUI (passo 1).
+[2025-10-30 13:32:27] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:32:27] [DEBUG] Extraindo 69 linhas da página atual do MUI.
+[2025-10-30 13:32:31] [DEBUG] Botão 'Próxima' desabilitado — fim da paginação MUI.
+[2025-10-30 13:32:31] [SUCCESS] Coleta MUI finalizada. Total registros coletados: 169
+[2025-10-30 13:32:31] [DEBUG] Índice MUI criado com 10 chaves únicas.
+[2025-10-30 13:32:31] [CRITICAL] ❌ FALHA NA QUALIDADE DE DADOS (CAMARAO TO GO PARANGABA)
+[2025-10-30 13:32:31] [CRITICAL]   Entregador: Mailton
+[2025-10-30 13:32:31] [CRITICAL]   Pedidos Esperados (Modal): 11
+[2025-10-30 13:32:31] [CRITICAL]   Pedidos Encontrados (MUI): 0
+[2025-10-30 13:32:31] [CRITICAL] ❌ FALHA NA QUALIDADE DE DADOS (CAMARAO TO GO PARANGABA)
+[2025-10-30 13:32:31] [CRITICAL]   Entregador: Marcos
+[2025-10-30 13:32:31] [CRITICAL]   Pedidos Esperados (Modal): 9
+[2025-10-30 13:32:31] [CRITICAL]   Pedidos Encontrados (MUI): 0
+[2025-10-30 13:32:31] [CRITICAL] ❌ FALHA NA QUALIDADE DE DADOS (CAMARAO TO GO PARANGABA)
+[2025-10-30 13:32:31] [CRITICAL]   Entregador: Mateus Barros de Sousa
+[2025-10-30 13:32:31] [CRITICAL]   Pedidos Esperados (Modal): 9
+[2025-10-30 13:32:31] [CRITICAL]   Pedidos Encontrados (MUI): 15
+[2025-10-30 13:32:31] [CRITICAL] ❌ FALHA NA QUALIDADE DE DADOS (CAMARAO TO GO PARANGABA)
+[2025-10-30 13:32:31] [CRITICAL]   Entregador: Wesley
+[2025-10-30 13:32:31] [CRITICAL]   Pedidos Esperados (Modal): 8
+[2025-10-30 13:32:31] [CRITICAL]   Pedidos Encontrados (MUI): 15
+[2025-10-30 13:32:31] [CRITICAL] ❌ FALHA NA QUALIDADE DE DADOS (CAMARAO TO GO PARANGABA)
+[2025-10-30 13:32:31] [CRITICAL]   Entregador: Teo darc
+[2025-10-30 13:32:31] [CRITICAL]   Pedidos Esperados (Modal): 7
+[2025-10-30 13:32:31] [CRITICAL]   Pedidos Encontrados (MUI): 23
+[2025-10-30 13:32:31] [CRITICAL] ❌ FALHA NA QUALIDADE DE DADOS (CAMARAO TO GO PARANGABA)
+[2025-10-30 13:32:31] [CRITICAL]   Entregador: Anderson Leal
+[2025-10-30 13:32:31] [CRITICAL]   Pedidos Esperados (Modal): 7
+[2025-10-30 13:32:31] [CRITICAL]   Pedidos Encontrados (MUI): 0
+[2025-10-30 13:32:31] [DEBUG] Ignorando verificação de qualidade para a linha 'Total'.
+[2025-10-30 13:32:31] [DEBUG] Cruzamento concluído. Linhas produzidas: 57
+[2025-10-30 13:32:31] [WARN]   ⚠️ Falha na verificação de qualidade (Tentativa 1). Retentando...
+[2025-10-30 13:32:32] [SUCCESS] Filtros aplicados. Aguardando a recarga dos dados.
+[2025-10-30 13:32:33] [INFO]   Iniciando tentativa de coleta e verificação de qualidade 2/3...
+[2025-10-30 13:32:33] [DEBUG] Grid MUI detectado para coleta.
+[2025-10-30 13:32:33] [DEBUG] Resetando grid MUI para a primeira página...
+[2025-10-30 13:32:34] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:32:34] [DEBUG] Grid MUI resetado (Página 1 alcançada).
+[2025-10-30 13:32:35] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 13:32:35] [INFO] Popup fechado com sucesso.
+[2025-10-30 13:32:35] [INFO] Tentativa 1 de abrir o modal de entregas...
+[2025-10-30 13:32:35] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 13:32:35] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:32:35] [DEBUG] Setado 'Linhas por página' para 100 (quando disponível).
+[2025-10-30 13:32:36] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:32:36] [DEBUG] Extraindo 100 linhas da página atual do MUI.
+[2025-10-30 13:32:37] [SUCCESS] Modal Resumo de entregas carregado.
+[2025-10-30 13:32:37] [DEBUG] Linhas encontradas na tabela: 5
+[2025-10-30 13:32:37] [DEBUG]   → Dados do modal (Controle Mestre) coletados (linhas: 5).
+[2025-10-30 13:32:38] [INFO] Popup fechado com sucesso.
+[2025-10-30 13:32:38] [INFO]   Iniciando tentativa de coleta e verificação de qualidade 1/3...
+[2025-10-30 13:32:38] [DEBUG] Grid MUI detectado para coleta.
+[2025-10-30 13:32:38] [DEBUG] Resetando grid MUI para a primeira página...
+[2025-10-30 13:32:38] [DEBUG] Grid MUI resetado (Página 1 alcançada).
+[2025-10-30 13:32:39] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:32:39] [DEBUG] Setado 'Linhas por página' para 100 (quando disponível).
+[2025-10-30 13:32:40] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:32:40] [DEBUG] Extraindo 55 linhas da página atual do MUI.
+[2025-10-30 13:32:42] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:32:43] [DEBUG] Botão 'Próxima' desabilitado — fim da paginação MUI.
+[2025-10-30 13:32:43] [SUCCESS] Coleta MUI finalizada. Total registros coletados: 55
+[2025-10-30 13:32:43] [DEBUG] Índice MUI criado com 5 chaves únicas.
+[2025-10-30 13:32:43] [DEBUG] ✅ Verificação de qualidade OK para Gabriela Fernandes Leite (15 pedidos).
+[2025-10-30 13:32:43] [DEBUG] ✅ Verificação de qualidade OK para Matheus Levi (14 pedidos).
+[2025-10-30 13:32:43] [DEBUG] ✅ Verificação de qualidade OK para Joao Gabriel Gomes de Queiroz (12 pedidos).
+[2025-10-30 13:32:43] [DEBUG] ✅ Verificação de qualidade OK para Nayana (11 pedidos).
+[2025-10-30 13:32:43] [DEBUG] Ignorando verificação de qualidade para a linha 'Total'.
+[2025-10-30 13:32:43] [DEBUG] Cruzamento concluído. Linhas produzidas: 53
+[2025-10-30 13:32:43] [SUCCESS]   ✅ SUCESSO na verificação de qualidade (Tentativa 1). Dados reconciliados.
+[2025-10-30 13:32:43] [SUCCESS]   ✅ Dados cruzados (modal × MUI) adicionados ao consolidado.
+[2025-10-30 13:32:43] [DEBUG] Navegando para próxima página MUI (passo 1).
+[2025-10-30 13:32:44] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:32:44] [DEBUG] Extraindo 69 linhas da página atual do MUI.
+[2025-10-30 13:32:44] [SUCCESS] 🏁 Fim do processamento de BRAYAN BURGER SUL na data 29/10/2025.
+[2025-10-30 13:32:44] [INFO] 
+======================================
+[2025-10-30 13:32:44] [INFO] 🧩 Etapa 2: INICIANDO PROCESSAMENTO → BUTECO DONA MARIA | Data: 29/10/2025
+[2025-10-30 13:32:44] [INFO] 🔄 Mudando de loja: BRAYAN BURGER SUL → BUTECO DONA MARIA
+[2025-10-30 13:32:44] [INFO] Mudando loja para: BUTECO DONA MARIA (tentativa 1/2)
+[2025-10-30 13:32:44] [DEBUG] Botão 'Mudar loja' clicado.
+[2025-10-30 13:32:46] [WARN] ⚠️ Timeout ao aguardar interface pós-troca de loja. Tentando estabilizar novamente...
+[2025-10-30 13:32:47] [DEBUG] Botão 'Próxima' desabilitado — fim da paginação MUI.
+[2025-10-30 13:32:47] [SUCCESS] Coleta MUI finalizada. Total registros coletados: 169
+[2025-10-30 13:32:47] [DEBUG] Índice MUI criado com 10 chaves únicas.
+[2025-10-30 13:32:47] [CRITICAL] ❌ FALHA NA QUALIDADE DE DADOS (CAMARAO TO GO PARANGABA)
+[2025-10-30 13:32:47] [CRITICAL]   Entregador: Mailton
+[2025-10-30 13:32:47] [CRITICAL]   Pedidos Esperados (Modal): 11
+[2025-10-30 13:32:47] [CRITICAL]   Pedidos Encontrados (MUI): 0
+[2025-10-30 13:32:47] [CRITICAL] ❌ FALHA NA QUALIDADE DE DADOS (CAMARAO TO GO PARANGABA)
+[2025-10-30 13:32:47] [CRITICAL]   Entregador: Marcos
+[2025-10-30 13:32:47] [CRITICAL]   Pedidos Esperados (Modal): 9
+[2025-10-30 13:32:47] [CRITICAL]   Pedidos Encontrados (MUI): 0
+[2025-10-30 13:32:47] [CRITICAL] ❌ FALHA NA QUALIDADE DE DADOS (CAMARAO TO GO PARANGABA)
+[2025-10-30 13:32:47] [CRITICAL]   Entregador: Mateus Barros de Sousa
+[2025-10-30 13:32:47] [CRITICAL]   Pedidos Esperados (Modal): 9
+[2025-10-30 13:32:47] [CRITICAL]   Pedidos Encontrados (MUI): 15
+[2025-10-30 13:32:47] [CRITICAL] ❌ FALHA NA QUALIDADE DE DADOS (CAMARAO TO GO PARANGABA)
+[2025-10-30 13:32:47] [CRITICAL]   Entregador: Wesley
+[2025-10-30 13:32:47] [CRITICAL]   Pedidos Esperados (Modal): 8
+[2025-10-30 13:32:47] [CRITICAL]   Pedidos Encontrados (MUI): 15
+[2025-10-30 13:32:47] [CRITICAL] ❌ FALHA NA QUALIDADE DE DADOS (CAMARAO TO GO PARANGABA)
+[2025-10-30 13:32:47] [CRITICAL]   Entregador: Teo darc
+[2025-10-30 13:32:47] [CRITICAL]   Pedidos Esperados (Modal): 7
+[2025-10-30 13:32:47] [CRITICAL]   Pedidos Encontrados (MUI): 23
+[2025-10-30 13:32:47] [CRITICAL] ❌ FALHA NA QUALIDADE DE DADOS (CAMARAO TO GO PARANGABA)
+[2025-10-30 13:32:47] [CRITICAL]   Entregador: Anderson Leal
+[2025-10-30 13:32:47] [CRITICAL]   Pedidos Esperados (Modal): 7
+[2025-10-30 13:32:47] [CRITICAL]   Pedidos Encontrados (MUI): 0
+[2025-10-30 13:32:47] [DEBUG] Ignorando verificação de qualidade para a linha 'Total'.
+[2025-10-30 13:32:47] [DEBUG] Cruzamento concluído. Linhas produzidas: 57
+[2025-10-30 13:32:47] [WARN]   ⚠️ Falha na verificação de qualidade (Tentativa 2). Retentando...
+[2025-10-30 13:32:48] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 13:32:49] [INFO]   Iniciando tentativa de coleta e verificação de qualidade 3/3...
+[2025-10-30 13:32:49] [DEBUG] Grid MUI detectado para coleta.
+[2025-10-30 13:32:49] [DEBUG] Resetando grid MUI para a primeira página...
+[2025-10-30 13:32:50] [DEBUG] Loja 'BUTECO DONA MARIA' selecionada no menu.
+[2025-10-30 13:32:50] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:32:50] [DEBUG] Grid MUI resetado (Página 1 alcançada).
+[2025-10-30 13:32:52] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:32:52] [DEBUG] Setado 'Linhas por página' para 100 (quando disponível).
+[2025-10-30 13:32:52] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:32:52] [DEBUG] Extraindo 100 linhas da página atual do MUI.
+[2025-10-30 13:32:58] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:32:59] [DEBUG] Navegando para próxima página MUI (passo 1).
+[2025-10-30 13:33:00] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:33:00] [DEBUG] Extraindo 69 linhas da página atual do MUI.
+[2025-10-30 13:33:03] [DEBUG] Botão 'Próxima' desabilitado — fim da paginação MUI.
+[2025-10-30 13:33:03] [SUCCESS] Coleta MUI finalizada. Total registros coletados: 169
+[2025-10-30 13:33:03] [DEBUG] Índice MUI criado com 10 chaves únicas.
+[2025-10-30 13:33:03] [CRITICAL] ❌ FALHA NA QUALIDADE DE DADOS (CAMARAO TO GO PARANGABA)
+[2025-10-30 13:33:03] [CRITICAL]   Entregador: Mailton
+[2025-10-30 13:33:03] [CRITICAL]   Pedidos Esperados (Modal): 11
+[2025-10-30 13:33:03] [CRITICAL]   Pedidos Encontrados (MUI): 0
+[2025-10-30 13:33:03] [CRITICAL] ❌ FALHA NA QUALIDADE DE DADOS (CAMARAO TO GO PARANGABA)
+[2025-10-30 13:33:03] [CRITICAL]   Entregador: Marcos
+[2025-10-30 13:33:03] [CRITICAL]   Pedidos Esperados (Modal): 9
+[2025-10-30 13:33:03] [CRITICAL]   Pedidos Encontrados (MUI): 0
+[2025-10-30 13:33:03] [CRITICAL] ❌ FALHA NA QUALIDADE DE DADOS (CAMARAO TO GO PARANGABA)
+[2025-10-30 13:33:03] [CRITICAL]   Entregador: Mateus Barros de Sousa
+[2025-10-30 13:33:03] [CRITICAL]   Pedidos Esperados (Modal): 9
+[2025-10-30 13:33:03] [CRITICAL]   Pedidos Encontrados (MUI): 15
+[2025-10-30 13:33:03] [CRITICAL] ❌ FALHA NA QUALIDADE DE DADOS (CAMARAO TO GO PARANGABA)
+[2025-10-30 13:33:03] [CRITICAL]   Entregador: Wesley
+[2025-10-30 13:33:03] [CRITICAL]   Pedidos Esperados (Modal): 8
+[2025-10-30 13:33:03] [CRITICAL]   Pedidos Encontrados (MUI): 15
+[2025-10-30 13:33:03] [CRITICAL] ❌ FALHA NA QUALIDADE DE DADOS (CAMARAO TO GO PARANGABA)
+[2025-10-30 13:33:03] [CRITICAL]   Entregador: Teo darc
+[2025-10-30 13:33:03] [CRITICAL]   Pedidos Esperados (Modal): 7
+[2025-10-30 13:33:03] [CRITICAL]   Pedidos Encontrados (MUI): 23
+[2025-10-30 13:33:03] [CRITICAL] ❌ FALHA NA QUALIDADE DE DADOS (CAMARAO TO GO PARANGABA)
+[2025-10-30 13:33:03] [CRITICAL]   Entregador: Anderson Leal
+[2025-10-30 13:33:03] [CRITICAL]   Pedidos Esperados (Modal): 7
+[2025-10-30 13:33:03] [CRITICAL]   Pedidos Encontrados (MUI): 0
+[2025-10-30 13:33:03] [DEBUG] Ignorando verificação de qualidade para a linha 'Total'.
+[2025-10-30 13:33:03] [DEBUG] Cruzamento concluído. Linhas produzidas: 57
+[2025-10-30 13:33:03] [WARN]   ⚠️ Falha na verificação de qualidade (Tentativa 3). Retentando...
+[2025-10-30 13:33:05] [WARN]   ⚠️ Dados de CAMARAO TO GO PARANGABA adicionados, mas COM AVISO DE QUALIDADE (divergência Modal/MUI) após 3 tentativas.
+[2025-10-30 13:33:06] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 13:33:06] [SUCCESS] Loja 'BUTECO DONA MARIA' agora está ativa e interface estabilizada.
+[2025-10-30 13:33:06] [SUCCESS] 🏁 Fim do processamento de CAMARAO TO GO PARANGABA na data 29/10/2025.
+[2025-10-30 13:33:06] [INFO] 
+======================================
+[2025-10-30 13:33:06] [INFO] 🧩 Etapa 2: INICIANDO PROCESSAMENTO → CATATAU LANCHES | Data: 29/10/2025
+[2025-10-30 13:33:06] [INFO] 🔄 Mudando de loja: CAMARAO TO GO PARANGABA → CATATAU LANCHES
+[2025-10-30 13:33:06] [INFO] Mudando loja para: CATATAU LANCHES (tentativa 1/2)
+[2025-10-30 13:33:06] [DEBUG] Botão 'Mudar loja' clicado.
+[2025-10-30 13:33:08] [WARN] ⚠️ Timeout ao aguardar interface pós-troca de loja. Tentando estabilizar novamente...
+[2025-10-30 13:33:10] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 13:33:11] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:33:12] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:33:12] [INFO] Selecionando menu inicial...
+[2025-10-30 13:33:12] [DEBUG] Loja 'CATATAU LANCHES' selecionada no menu.
+[2025-10-30 13:33:13] [INFO] Navegando para o relatório de pedidos...
+[2025-10-30 13:33:13] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:33:13] [SUCCESS] ✅ Relatório de Pedidos acessado com sucesso.
+[2025-10-30 13:33:17] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 13:33:17] [INFO] Popup fechado com sucesso.
+[2025-10-30 13:33:18] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:33:18] [DEBUG] ✅ Sincronização pós-troca de loja realizada.
+[2025-10-30 13:33:18] [INFO] 📅 Aplicando filtros: 29/10/2025 07:00 → 30/10/2025 07:00
+[2025-10-30 13:33:18] [INFO] Aplicando filtros: 29/10/2025 07:00 a 30/10/2025 07:00
+[2025-10-30 13:33:27] [SUCCESS] Filtros aplicados. Aguardando a recarga dos dados.
+[2025-10-30 13:33:29] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 13:33:29] [SUCCESS] Loja 'CATATAU LANCHES' agora está ativa e interface estabilizada.
+[2025-10-30 13:33:30] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 13:33:30] [INFO] Popup fechado com sucesso.
+[2025-10-30 13:33:30] [INFO] Tentativa 1 de abrir o modal de entregas...
+[2025-10-30 13:33:30] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 13:33:33] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:33:34] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:33:34] [INFO] Selecionando menu inicial...
+[2025-10-30 13:33:35] [INFO] Navegando para o relatório de pedidos...
+[2025-10-30 13:33:35] [WARN] ⚠️ Backdrop ainda presente antes de clicar em Resumo. Tentando forçar estabilização...
+[2025-10-30 13:33:35] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:33:35] [SUCCESS] ✅ Relatório de Pedidos acessado com sucesso.
+[2025-10-30 13:33:38] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 13:33:38] [INFO] Popup fechado com sucesso.
+[2025-10-30 13:33:39] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:33:39] [DEBUG] ✅ Sincronização pós-troca de loja realizada.
+[2025-10-30 13:33:39] [INFO] 📅 Aplicando filtros: 29/10/2025 07:00 → 30/10/2025 07:00
+[2025-10-30 13:33:39] [INFO] Aplicando filtros: 29/10/2025 07:00 a 30/10/2025 07:00
+[2025-10-30 13:33:40] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 13:33:41] [SUCCESS] Modal Resumo de entregas carregado.
+[2025-10-30 13:33:41] [DEBUG] Linhas encontradas na tabela: 8
+[2025-10-30 13:33:42] [DEBUG]   → Dados do modal (Controle Mestre) coletados (linhas: 8).
+[2025-10-30 13:33:42] [INFO] Popup fechado com sucesso.
+[2025-10-30 13:33:42] [INFO]   Iniciando tentativa de coleta e verificação de qualidade 1/3...
+[2025-10-30 13:33:42] [DEBUG] Grid MUI detectado para coleta.
+[2025-10-30 13:33:42] [DEBUG] Resetando grid MUI para a primeira página...
+[2025-10-30 13:33:42] [DEBUG] Grid MUI resetado (Página 1 alcançada).
+[2025-10-30 13:33:44] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:33:44] [DEBUG] Setado 'Linhas por página' para 100 (quando disponível).
+[2025-10-30 13:33:44] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:33:44] [DEBUG] Extraindo 80 linhas da página atual do MUI.
+[2025-10-30 13:33:45] [SUCCESS] Filtros aplicados. Aguardando a recarga dos dados.
+[2025-10-30 13:33:48] [DEBUG] Botão 'Próxima' desabilitado — fim da paginação MUI.
+[2025-10-30 13:33:48] [SUCCESS] Coleta MUI finalizada. Total registros coletados: 80
+[2025-10-30 13:33:48] [DEBUG] Índice MUI criado com 8 chaves únicas.
+[2025-10-30 13:33:48] [DEBUG] ✅ Verificação de qualidade OK para Ryan sousa (17 pedidos).
+[2025-10-30 13:33:48] [DEBUG] ✅ Verificação de qualidade OK para Felipe Nero 2482 (12 pedidos).
+[2025-10-30 13:33:48] [DEBUG] ✅ Verificação de qualidade OK para Matheus Sousa Xavier (11 pedidos).
+[2025-10-30 13:33:48] [DEBUG] ✅ Verificação de qualidade OK para Emanoel Vicente silva de Freitas junior (10 pedidos).
+[2025-10-30 13:33:48] [DEBUG] ✅ Verificação de qualidade OK para Natanael Bastos Oliveira (10 pedidos).
+[2025-10-30 13:33:48] [DEBUG] ✅ Verificação de qualidade OK para Leonardo Nogueira de Araújo (8 pedidos).
+[2025-10-30 13:33:48] [DEBUG] ✅ Verificação de qualidade OK para Mikael Nobre (8 pedidos).
+[2025-10-30 13:33:48] [DEBUG] Ignorando verificação de qualidade para a linha 'Total'.
+[2025-10-30 13:33:48] [DEBUG] Cruzamento concluído. Linhas produzidas: 77
+[2025-10-30 13:33:48] [SUCCESS]   ✅ SUCESSO na verificação de qualidade (Tentativa 1). Dados reconciliados.
+[2025-10-30 13:33:48] [SUCCESS]   ✅ Dados cruzados (modal × MUI) adicionados ao consolidado.
+[2025-10-30 13:33:48] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 13:33:48] [INFO] Popup fechado com sucesso.
+[2025-10-30 13:33:48] [INFO] Tentativa 1 de abrir o modal de entregas...
+[2025-10-30 13:33:48] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 13:33:49] [SUCCESS] Modal Resumo de entregas carregado.
+[2025-10-30 13:33:49] [DEBUG] Linhas encontradas na tabela: 3
+[2025-10-30 13:33:49] [DEBUG]   → Dados do modal (Controle Mestre) coletados (linhas: 3).
+[2025-10-30 13:33:49] [INFO] Popup fechado com sucesso.
+[2025-10-30 13:33:49] [INFO]   Iniciando tentativa de coleta e verificação de qualidade 1/3...
+[2025-10-30 13:33:49] [DEBUG] Grid MUI detectado para coleta.
+[2025-10-30 13:33:49] [DEBUG] Resetando grid MUI para a primeira página...
+[2025-10-30 13:33:49] [DEBUG] Grid MUI resetado (Página 1 alcançada).
+[2025-10-30 13:33:49] [SUCCESS] 🏁 Fim do processamento de BUTECO DONA MARIA na data 29/10/2025.
+[2025-10-30 13:33:49] [INFO] ======================================
+[2025-10-30 13:33:49] [INFO] 📊 RESUMO FINAL DE CAPTURA DE DADOS:
+[2025-10-30 13:33:49] [INFO]   - ARRETADO DOCES: PENDENTE
+[2025-10-30 13:33:49] [INFO]   - BEBELU SANDUICHES - Glória Mall: SUCESSO
+[2025-10-30 13:33:49] [INFO]   - BOCA BURGUER: SUCESSO
+[2025-10-30 13:33:49] [INFO]   - BRAYAN BURGER SUL: SUCESSO
+[2025-10-30 13:33:49] [INFO]   - BUTECO DONA MARIA: SUCESSO
+[2025-10-30 13:33:49] [SUCCESS] Resumo geral → SUCESSO: 4; AVISO QUALIDADE: 0; PENDENTE: 1
+[2025-10-30 13:33:49] [DEBUG] Coluna 'Classificação do Turno' adicionada com sucesso.
+[2025-10-30 13:33:49] [DEBUG] Colunas 'Classificação do Dia' e 'Pagamento por Turno' adicionadas com sucesso.
+[2025-10-30 13:33:49] [SUCCESS] Exportação CONSOLIDADA concluída com sucesso: resumo_entregadores_T1_20251030_133349.csv
+[2025-10-30 13:33:49] [SUCCESS] [THREAD 1] Lote concluído com sucesso.
+[2025-10-30 13:33:49] [INFO] [THREAD 1] Driver encerrado.
+[2025-10-30 13:33:50] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:33:50] [DEBUG] Setado 'Linhas por página' para 100 (quando disponível).
+[2025-10-30 13:33:51] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:33:51] [DEBUG] Extraindo 13 linhas da página atual do MUI.
+[2025-10-30 13:33:51] [DEBUG] Botão 'Próxima' desabilitado — fim da paginação MUI.
+[2025-10-30 13:33:51] [SUCCESS] Coleta MUI finalizada. Total registros coletados: 13
+[2025-10-30 13:33:51] [DEBUG] Índice MUI criado com 3 chaves únicas.
+[2025-10-30 13:33:51] [DEBUG] ✅ Verificação de qualidade OK para Antônio Davi clemente (6 pedidos).
+[2025-10-30 13:33:51] [DEBUG] ✅ Verificação de qualidade OK para Thiago Silva Morais (5 pedidos).
+[2025-10-30 13:33:51] [DEBUG] Ignorando verificação de qualidade para a linha 'Total'.
+[2025-10-30 13:33:51] [DEBUG] Cruzamento concluído. Linhas produzidas: 12
+[2025-10-30 13:33:51] [SUCCESS]   ✅ SUCESSO na verificação de qualidade (Tentativa 1). Dados reconciliados.
+[2025-10-30 13:33:51] [SUCCESS]   ✅ Dados cruzados (modal × MUI) adicionados ao consolidado.
+[2025-10-30 13:33:52] [SUCCESS] 🏁 Fim do processamento de CATATAU LANCHES na data 29/10/2025.
+[2025-10-30 13:33:52] [INFO] 
+======================================
+[2025-10-30 13:33:52] [INFO] 🧩 Etapa 2: INICIANDO PROCESSAMENTO → Center Um - DE BEM COM A VIDA | Data: 29/10/2025
+[2025-10-30 13:33:52] [INFO] 🔄 Mudando de loja: CATATAU LANCHES → Center Um - DE BEM COM A VIDA
+[2025-10-30 13:33:52] [INFO] Mudando loja para: Center Um - DE BEM COM A VIDA (tentativa 1/2)
+[2025-10-30 13:33:53] [DEBUG] Botão 'Mudar loja' clicado.
+[2025-10-30 13:33:55] [WARN] ⚠️ Timeout ao aguardar interface pós-troca de loja. Tentando estabilizar novamente...
+[2025-10-30 13:33:57] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 13:33:58] [DEBUG] Loja 'Center Um - DE BEM COM A VIDA' selecionada no menu.
+[2025-10-30 13:34:17] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 13:34:17] [SUCCESS] Loja 'Center Um - DE BEM COM A VIDA' agora está ativa e interface estabilizada.
+[2025-10-30 13:34:34] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:34:35] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:34:35] [INFO] Selecionando menu inicial...
+[2025-10-30 13:34:37] [INFO] Navegando para o relatório de pedidos...
+[2025-10-30 13:34:37] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:34:37] [SUCCESS] ✅ Relatório de Pedidos acessado com sucesso.
+[2025-10-30 13:34:40] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 13:34:40] [INFO] Popup fechado com sucesso.
+[2025-10-30 13:34:41] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:34:41] [DEBUG] ✅ Sincronização pós-troca de loja realizada.
+[2025-10-30 13:34:41] [INFO] 📅 Aplicando filtros: 29/10/2025 07:00 → 30/10/2025 07:00
+[2025-10-30 13:34:41] [INFO] Aplicando filtros: 29/10/2025 07:00 a 30/10/2025 07:00
+[2025-10-30 13:34:47] [SUCCESS] Filtros aplicados. Aguardando a recarga dos dados.
+[2025-10-30 13:34:51] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 13:34:51] [INFO] Popup fechado com sucesso.
+[2025-10-30 13:34:51] [INFO] Tentativa 1 de abrir o modal de entregas...
+[2025-10-30 13:34:51] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 13:34:51] [SUCCESS] Modal Resumo de entregas carregado.
+[2025-10-30 13:34:51] [DEBUG] Linhas encontradas na tabela: 2
+[2025-10-30 13:34:51] [DEBUG]   → Dados do modal (Controle Mestre) coletados (linhas: 2).
+[2025-10-30 13:34:51] [INFO] Popup fechado com sucesso.
+[2025-10-30 13:34:51] [INFO]   Iniciando tentativa de coleta e verificação de qualidade 1/3...
+[2025-10-30 13:34:51] [DEBUG] Grid MUI detectado para coleta.
+[2025-10-30 13:34:51] [DEBUG] Resetando grid MUI para a primeira página...
+[2025-10-30 13:34:51] [DEBUG] Grid MUI resetado (Página 1 alcançada).
+[2025-10-30 13:34:52] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:34:52] [DEBUG] Setado 'Linhas por página' para 100 (quando disponível).
+[2025-10-30 13:34:53] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:34:53] [DEBUG] Extraindo 12 linhas da página atual do MUI.
+[2025-10-30 13:34:53] [DEBUG] Botão 'Próxima' desabilitado — fim da paginação MUI.
+[2025-10-30 13:34:53] [SUCCESS] Coleta MUI finalizada. Total registros coletados: 12
+[2025-10-30 13:34:53] [DEBUG] Índice MUI criado com 1 chaves únicas.
+[2025-10-30 13:34:53] [DEBUG] ✅ Verificação de qualidade OK para Wesley Rodrigues de Sousa (12 pedidos).
+[2025-10-30 13:34:53] [WARN] Não foi possível ler a contagem de pedidos (Coluna 1) para ''. Pulando verificação.
+[2025-10-30 13:34:53] [DEBUG] Cruzamento concluído. Linhas produzidas: 13
+[2025-10-30 13:34:53] [SUCCESS]   ✅ SUCESSO na verificação de qualidade (Tentativa 1). Dados reconciliados.
+[2025-10-30 13:34:53] [SUCCESS]   ✅ Dados cruzados (modal × MUI) adicionados ao consolidado.
+[2025-10-30 13:34:54] [SUCCESS] 🏁 Fim do processamento de Center Um - DE BEM COM A VIDA na data 29/10/2025.
+[2025-10-30 13:34:54] [INFO] 
+======================================
+[2025-10-30 13:34:54] [INFO] 🧩 Etapa 2: INICIANDO PROCESSAMENTO → CHEPPITOS 13 DE MAIO | Data: 29/10/2025
+[2025-10-30 13:34:54] [INFO] 🔄 Mudando de loja: Center Um - DE BEM COM A VIDA → CHEPPITOS 13 DE MAIO
+[2025-10-30 13:34:54] [INFO] Mudando loja para: CHEPPITOS 13 DE MAIO (tentativa 1/2)
+[2025-10-30 13:34:55] [DEBUG] Botão 'Mudar loja' clicado.
+[2025-10-30 13:34:57] [WARN] ⚠️ Timeout ao aguardar interface pós-troca de loja. Tentando estabilizar novamente...
+[2025-10-30 13:34:59] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 13:35:00] [DEBUG] Loja 'CHEPPITOS 13 DE MAIO' selecionada no menu.
+[2025-10-30 13:35:40] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 13:35:40] [SUCCESS] Loja 'CHEPPITOS 13 DE MAIO' agora está ativa e interface estabilizada.
+[2025-10-30 13:35:43] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:35:44] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:35:44] [INFO] Selecionando menu inicial...
+[2025-10-30 13:35:46] [INFO] Navegando para o relatório de pedidos...
+[2025-10-30 13:35:46] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:35:46] [SUCCESS] ✅ Relatório de Pedidos acessado com sucesso.
+[2025-10-30 13:35:49] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 13:35:49] [INFO] Popup fechado com sucesso.
+[2025-10-30 13:35:50] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:35:50] [DEBUG] ✅ Sincronização pós-troca de loja realizada.
+[2025-10-30 13:35:50] [INFO] 📅 Aplicando filtros: 29/10/2025 07:00 → 30/10/2025 07:00
+[2025-10-30 13:35:50] [INFO] Aplicando filtros: 29/10/2025 07:00 a 30/10/2025 07:00
+[2025-10-30 13:35:56] [SUCCESS] Filtros aplicados. Aguardando a recarga dos dados.
+[2025-10-30 13:35:59] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 13:35:59] [INFO] Popup fechado com sucesso.
+[2025-10-30 13:35:59] [INFO] Tentativa 1 de abrir o modal de entregas...
+[2025-10-30 13:35:59] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 13:36:05] [WARN] ⚠️ Backdrop ainda presente antes de clicar em Resumo. Tentando forçar estabilização...
+[2025-10-30 13:36:08] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:36:09] [SUCCESS] Modal Resumo de entregas carregado.
+[2025-10-30 13:36:09] [DEBUG] Linhas encontradas na tabela: 6
+[2025-10-30 13:36:09] [DEBUG]   → Dados do modal (Controle Mestre) coletados (linhas: 6).
+[2025-10-30 13:36:09] [INFO] Popup fechado com sucesso.
+[2025-10-30 13:36:09] [INFO]   Iniciando tentativa de coleta e verificação de qualidade 1/3...
+[2025-10-30 13:36:09] [DEBUG] Grid MUI detectado para coleta.
+[2025-10-30 13:36:09] [DEBUG] Resetando grid MUI para a primeira página...
+[2025-10-30 13:36:09] [DEBUG] Grid MUI resetado (Página 1 alcançada).
+[2025-10-30 13:36:11] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:36:11] [DEBUG] Setado 'Linhas por página' para 100 (quando disponível).
+[2025-10-30 13:36:11] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 13:36:11] [DEBUG] Extraindo 74 linhas da página atual do MUI.
+[2025-10-30 13:36:15] [DEBUG] Botão 'Próxima' desabilitado — fim da paginação MUI.
+[2025-10-30 13:36:15] [SUCCESS] Coleta MUI finalizada. Total registros coletados: 74
+[2025-10-30 13:36:15] [DEBUG] Índice MUI criado com 6 chaves únicas.
+[2025-10-30 13:36:15] [DEBUG] ✅ Verificação de qualidade OK para Alessandro miguel (22 pedidos).
+[2025-10-30 13:36:15] [DEBUG] ✅ Verificação de qualidade OK para Thyago Barros rosa (20 pedidos).
+[2025-10-30 13:36:15] [DEBUG] ✅ Verificação de qualidade OK para Marcos Vinicius (14 pedidos).
+[2025-10-30 13:36:15] [DEBUG] ✅ Verificação de qualidade OK para wagner Maciel da Silva (9 pedidos).
+[2025-10-30 13:36:15] [DEBUG] ✅ Verificação de qualidade OK para Lucas Kauã de Souza Alves (7 pedidos).
+[2025-10-30 13:36:15] [DEBUG] Ignorando verificação de qualidade para a linha 'Total'.
+[2025-10-30 13:36:15] [DEBUG] Cruzamento concluído. Linhas produzidas: 73
+[2025-10-30 13:36:15] [SUCCESS]   ✅ SUCESSO na verificação de qualidade (Tentativa 1). Dados reconciliados.
+[2025-10-30 13:36:15] [SUCCESS]   ✅ Dados cruzados (modal × MUI) adicionados ao consolidado.
+[2025-10-30 13:36:16] [SUCCESS] 🏁 Fim do processamento de CHEPPITOS 13 DE MAIO na data 29/10/2025.
+[2025-10-30 13:36:16] [INFO] ======================================
+[2025-10-30 13:36:16] [INFO] 📊 RESUMO FINAL DE CAPTURA DE DADOS:
+[2025-10-30 13:36:16] [INFO]   - CALORENTOS BURGUER: SUCESSO
+[2025-10-30 13:36:16] [INFO]   - CAMARAO TO GO PARANGABA: SUCESSO (AVISO QUALIDADE)
+[2025-10-30 13:36:16] [INFO]   - CATATAU LANCHES: SUCESSO
+[2025-10-30 13:36:16] [INFO]   - Center Um - DE BEM COM A VIDA: SUCESSO
+[2025-10-30 13:36:16] [INFO]   - CHEPPITOS 13 DE MAIO: SUCESSO
+[2025-10-30 13:36:16] [SUCCESS] Resumo geral → SUCESSO: 4; AVISO QUALIDADE: 1; PENDENTE: 0
+[2025-10-30 13:36:16] [DEBUG] Coluna 'Classificação do Turno' adicionada com sucesso.
+[2025-10-30 13:36:16] [DEBUG] Colunas 'Classificação do Dia' e 'Pagamento por Turno' adicionadas com sucesso.
+[2025-10-30 13:36:16] [SUCCESS] Exportação CONSOLIDADA concluída com sucesso: resumo_entregadores_T2_20251030_133616.csv
+[2025-10-30 13:36:16] [SUCCESS] [THREAD 2] Lote concluído com sucesso.
+[2025-10-30 13:36:16] [INFO] [THREAD 2] Driver encerrado.
+[2025-10-30 13:36:16] [DEBUG] Mesclagem: carregado resumo_entregadores_T1_20251030_133349.csv (141 linhas).
+[2025-10-30 13:36:16] [DEBUG] Mesclagem: carregado resumo_entregadores_T2_20251030_133616.csv (171 linhas).
+[2025-10-30 13:36:16] [SUCCESS] ✅ CSV final mesclado gerado: resumo_entregadores_FINAL_29-10-2025_20251030_133616.csv (total 312 linhas)
+[2025-10-30 13:36:16] [SUCCESS] ✅ Execução multithread concluída com sucesso.
+[2025-10-30 13:36:16] [INFO] Duração total: 0:06:36.635358
+[2025-10-30 13:36:16] [INFO] XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+[2025-10-30 14:08:34] [INFO] XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+[2025-10-30 14:08:34] [INFO] Iniciando automação Agilizone Hashtag...
+[2025-10-30 14:08:34] [INFO] Modo atual: PRODUÇÃO
+[2025-10-30 14:08:34] [DEBUG] Limpando arquivos CSV temporários de execuções anteriores...
+[2025-10-30 14:08:34] [DEBUG] Removido CSV temporário antigo: resumo_entregadores_T2_20251030_133616.csv
+[2025-10-30 14:08:34] [DEBUG] Removido CSV temporário antigo: resumo_entregadores_T1_20251030_133349.csv
+[2025-10-30 14:08:34] [INFO] Lendo datas do arquivo: data_param.txt
+[2025-10-30 14:08:34] [SUCCESS] Total de 1 datas carregadas para processamento.
+[2025-10-30 14:08:34] [INFO] Lendo planilha: Informes Lojas Hashtag.xlsx
+[2025-10-30 14:08:34] [SUCCESS] Planilha lida com sucesso. Total de 10 lojas processadas.
+[2025-10-30 14:08:34] [INFO] Preparando execução multithread (2 threads)...
+[2025-10-30 14:08:34] [DEBUG] Tamanhos dos lotes: [5, 5]
+[2025-10-30 14:08:34] [INFO] >>>> EXECUÇÃO MULTITHREAD PARA A DATA: 29/10/2025 <<<<
+[2025-10-30 14:08:34] [INFO] [THREAD 1] Iniciando driver otimizado...
+[2025-10-30 14:08:36] [INFO] [THREAD 1] Iniciando lote (5 lojas)...
+[2025-10-30 14:08:36] [INFO] 🧩 Etapa 1: Iniciando login e configuração da primeira loja (ARRETADO DOCES)...
+[2025-10-30 14:08:36] [INFO] Acessando portal...
+[2025-10-30 14:08:40] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:08:40] [SUCCESS] Login realizado e interface carregada.
+[2025-10-30 14:08:40] [INFO] Selecionando loja inicial: ARRETADO DOCES
+[2025-10-30 14:08:44] [INFO] [THREAD 2] Iniciando driver otimizado...
+[2025-10-30 14:08:46] [INFO] [THREAD 2] Iniciando lote (5 lojas)...
+[2025-10-30 14:08:46] [INFO] 🧩 Etapa 1: Iniciando login e configuração da primeira loja (CALORENTOS BURGUER)...
+[2025-10-30 14:08:46] [INFO] Acessando portal...
+[2025-10-30 14:08:48] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:08:48] [SUCCESS] ✅ Loja 'ARRETADO DOCES' selecionada e estável.
+[2025-10-30 14:08:48] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:08:51] [INFO] Selecionando menu inicial...
+[2025-10-30 14:08:51] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:08:51] [SUCCESS] Login realizado e interface carregada.
+[2025-10-30 14:08:51] [INFO] Selecionando loja inicial: CALORENTOS BURGUER
+[2025-10-30 14:08:53] [INFO] Navegando para o relatório de pedidos...
+[2025-10-30 14:08:53] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:08:53] [SUCCESS] ✅ Relatório de Pedidos acessado com sucesso.
+[2025-10-30 14:08:53] [INFO] Sincronizando interface e fechando popups antes da 1ª interação com filtros.
+[2025-10-30 14:08:56] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:08:56] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:08:57] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:08:57] [INFO] 
+======================================
+[2025-10-30 14:08:57] [INFO] 🧩 Etapa 2: INICIANDO PROCESSAMENTO → ARRETADO DOCES | Data: 29/10/2025
+[2025-10-30 14:08:57] [INFO] 📅 Aplicando filtros: 29/10/2025 07:00 → 30/10/2025 07:00
+[2025-10-30 14:08:57] [INFO] Aplicando filtros: 29/10/2025 07:00 a 30/10/2025 07:00
+[2025-10-30 14:08:59] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:08:59] [SUCCESS] ✅ Loja 'CALORENTOS BURGUER' selecionada e estável.
+[2025-10-30 14:08:59] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:09:02] [INFO] Selecionando menu inicial...
+[2025-10-30 14:09:04] [SUCCESS] Filtros aplicados. Aguardando a recarga dos dados.
+[2025-10-30 14:09:04] [INFO] Navegando para o relatório de pedidos...
+[2025-10-30 14:09:04] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:09:04] [SUCCESS] ✅ Relatório de Pedidos acessado com sucesso.
+[2025-10-30 14:09:04] [INFO] Sincronizando interface e fechando popups antes da 1ª interação com filtros.
+[2025-10-30 14:09:07] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:09:07] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:09:07] [INFO] Tentativa 1 de abrir o modal de entregas...
+[2025-10-30 14:09:07] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 14:09:08] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:09:08] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:09:09] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:09:09] [INFO] 
+======================================
+[2025-10-30 14:09:09] [INFO] 🧩 Etapa 2: INICIANDO PROCESSAMENTO → CALORENTOS BURGUER | Data: 29/10/2025
+[2025-10-30 14:09:09] [INFO] 📅 Aplicando filtros: 29/10/2025 07:00 → 30/10/2025 07:00
+[2025-10-30 14:09:09] [INFO] Aplicando filtros: 29/10/2025 07:00 a 30/10/2025 07:00
+[2025-10-30 14:09:09] [WARN] ⏳ Timeout: elemento não ficou clicável (xpath, //button[contains(text(), 'Resumo de entregas por entregador')])
+[2025-10-30 14:09:11] [WARN] Timeout: Botão 'Resumo de entregas' não ficou clicável ou modal não carregou. Pulando extração.
+[2025-10-30 14:09:13] [INFO] Tentativa 2 de abrir o modal de entregas...
+[2025-10-30 14:09:13] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 14:09:15] [SUCCESS] Filtros aplicados. Aguardando a recarga dos dados.
+[2025-10-30 14:09:15] [WARN] ⏳ Timeout: elemento não ficou clicável (xpath, //button[contains(text(), 'Resumo de entregas por entregador')])
+[2025-10-30 14:09:17] [WARN] Timeout: Botão 'Resumo de entregas' não ficou clicável ou modal não carregou. Pulando extração.
+[2025-10-30 14:09:18] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:09:18] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:09:18] [INFO] Tentativa 1 de abrir o modal de entregas...
+[2025-10-30 14:09:18] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 14:09:18] [SUCCESS] Modal Resumo de entregas carregado.
+[2025-10-30 14:09:18] [DEBUG] Linhas encontradas na tabela: 3
+[2025-10-30 14:09:18] [DEBUG]   → Dados do modal (Controle Mestre) coletados (linhas: 3).
+[2025-10-30 14:09:19] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:09:19] [INFO]   Iniciando tentativa de coleta e verificação de qualidade 1/3...
+[2025-10-30 14:09:19] [DEBUG] Grid MUI detectado para coleta.
+[2025-10-30 14:09:19] [DEBUG] Resetando grid MUI para a primeira página...
+[2025-10-30 14:09:19] [DEBUG] Grid MUI resetado (Página 1 alcançada).
+[2025-10-30 14:09:19] [INFO] Tentativa 3 de abrir o modal de entregas...
+[2025-10-30 14:09:19] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 14:09:20] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:09:20] [DEBUG] Setado 'Linhas por página' para 100 (quando disponível).
+[2025-10-30 14:09:20] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:09:20] [DEBUG] Extraindo 22 linhas da página atual do MUI.
+[2025-10-30 14:09:21] [WARN] ⏳ Timeout: elemento não ficou clicável (xpath, //button[contains(text(), 'Resumo de entregas por entregador')])
+[2025-10-30 14:09:21] [DEBUG] Botão 'Próxima' desabilitado — fim da paginação MUI.
+[2025-10-30 14:09:21] [SUCCESS] Coleta MUI finalizada. Total registros coletados: 22
+[2025-10-30 14:09:21] [DEBUG] Índice MUI criado com 3 chaves únicas.
+[2025-10-30 14:09:21] [DEBUG] ✅ Verificação de qualidade OK para Paulo Nepomuceno Azevedo (10 pedidos).
+[2025-10-30 14:09:21] [DEBUG] ✅ Verificação de qualidade OK para Antonio Walber Oliveira da Costa (9 pedidos).
+[2025-10-30 14:09:21] [DEBUG] Ignorando verificação de qualidade para a linha 'Total'.
+[2025-10-30 14:09:21] [DEBUG] Cruzamento concluído. Linhas produzidas: 20
+[2025-10-30 14:09:21] [SUCCESS]   ✅ SUCESSO na verificação de qualidade (Tentativa 1). Dados reconciliados.
+[2025-10-30 14:09:21] [SUCCESS]   ✅ Dados cruzados (modal × MUI) adicionados ao consolidado.
+[2025-10-30 14:09:22] [SUCCESS] 🏁 Fim do processamento de CALORENTOS BURGUER na data 29/10/2025.
+[2025-10-30 14:09:22] [INFO] 
+======================================
+[2025-10-30 14:09:22] [INFO] 🧩 Etapa 2: INICIANDO PROCESSAMENTO → CAMARAO TO GO PARANGABA | Data: 29/10/2025
+[2025-10-30 14:09:22] [INFO] 🔄 Mudando de loja: CALORENTOS BURGUER → CAMARAO TO GO PARANGABA
+[2025-10-30 14:09:22] [INFO] Mudando loja para: CAMARAO TO GO PARANGABA (tentativa 1/2)
+[2025-10-30 14:09:23] [DEBUG] Botão 'Mudar loja' clicado.
+[2025-10-30 14:09:23] [WARN] Timeout: Botão 'Resumo de entregas' não ficou clicável ou modal não carregou. Pulando extração.
+[2025-10-30 14:09:25] [WARN] ⚠️ Timeout ao aguardar interface pós-troca de loja. Tentando estabilizar novamente...
+[2025-10-30 14:09:25] [WARN] ⚠️ Falha após 3 tentativas de abrir o modal. Nenhuma extração realizada.
+[2025-10-30 14:09:26] [SUCCESS] 🏁 Fim do processamento de ARRETADO DOCES na data 29/10/2025.
+[2025-10-30 14:09:26] [INFO] 
+======================================
+[2025-10-30 14:09:26] [INFO] 🧩 Etapa 2: INICIANDO PROCESSAMENTO → BEBELU SANDUICHES - Glória Mall | Data: 29/10/2025
+[2025-10-30 14:09:26] [INFO] 🔄 Mudando de loja: ARRETADO DOCES → BEBELU SANDUICHES - Glória Mall
+[2025-10-30 14:09:26] [INFO] Mudando loja para: BEBELU SANDUICHES - Glória Mall (tentativa 1/2)
+[2025-10-30 14:09:26] [DEBUG] Botão 'Mudar loja' clicado.
+[2025-10-30 14:09:27] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 14:09:28] [DEBUG] Loja 'CAMARAO TO GO PARANGABA' selecionada no menu.
+[2025-10-30 14:09:28] [WARN] ⚠️ Timeout ao aguardar interface pós-troca de loja. Tentando estabilizar novamente...
+[2025-10-30 14:09:30] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 14:09:32] [DEBUG] Loja 'BEBELU SANDUICHES - Glória Mall' selecionada no menu.
+[2025-10-30 14:09:35] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:09:35] [SUCCESS] Loja 'CAMARAO TO GO PARANGABA' agora está ativa e interface estabilizada.
+[2025-10-30 14:09:37] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:09:37] [SUCCESS] Loja 'BEBELU SANDUICHES - Glória Mall' agora está ativa e interface estabilizada.
+[2025-10-30 14:09:38] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:09:39] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:09:39] [INFO] Selecionando menu inicial...
+[2025-10-30 14:09:40] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:09:40] [INFO] Navegando para o relatório de pedidos...
+[2025-10-30 14:09:41] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:09:41] [SUCCESS] ✅ Relatório de Pedidos acessado com sucesso.
+[2025-10-30 14:09:41] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:09:41] [INFO] Selecionando menu inicial...
+[2025-10-30 14:09:42] [INFO] Navegando para o relatório de pedidos...
+[2025-10-30 14:09:42] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:09:42] [SUCCESS] ✅ Relatório de Pedidos acessado com sucesso.
+[2025-10-30 14:09:44] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:09:44] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:09:45] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:09:45] [DEBUG] ✅ Sincronização pós-troca de loja realizada.
+[2025-10-30 14:09:45] [INFO] 📅 Aplicando filtros: 29/10/2025 07:00 → 30/10/2025 07:00
+[2025-10-30 14:09:45] [INFO] Aplicando filtros: 29/10/2025 07:00 a 30/10/2025 07:00
+[2025-10-30 14:09:45] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:09:45] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:09:46] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:09:46] [DEBUG] ✅ Sincronização pós-troca de loja realizada.
+[2025-10-30 14:09:46] [INFO] 📅 Aplicando filtros: 29/10/2025 07:00 → 30/10/2025 07:00
+[2025-10-30 14:09:46] [INFO] Aplicando filtros: 29/10/2025 07:00 a 30/10/2025 07:00
+[2025-10-30 14:09:53] [SUCCESS] Filtros aplicados. Aguardando a recarga dos dados.
+[2025-10-30 14:09:53] [SUCCESS] Filtros aplicados. Aguardando a recarga dos dados.
+[2025-10-30 14:09:56] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:09:56] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:09:56] [INFO] Tentativa 1 de abrir o modal de entregas...
+[2025-10-30 14:09:56] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 14:09:56] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:09:56] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:09:56] [INFO] Tentativa 1 de abrir o modal de entregas...
+[2025-10-30 14:09:56] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 14:09:56] [SUCCESS] Modal Resumo de entregas carregado.
+[2025-10-30 14:09:56] [DEBUG] Linhas encontradas na tabela: 3
+[2025-10-30 14:09:56] [DEBUG]   → Dados do modal (Controle Mestre) coletados (linhas: 3).
+[2025-10-30 14:09:57] [SUCCESS] Modal Resumo de entregas carregado.
+[2025-10-30 14:09:57] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:09:57] [INFO]   Iniciando tentativa de coleta e verificação de qualidade 1/3...
+[2025-10-30 14:09:57] [DEBUG] Grid MUI detectado para coleta.
+[2025-10-30 14:09:57] [DEBUG] Resetando grid MUI para a primeira página...
+[2025-10-30 14:09:57] [DEBUG] Grid MUI resetado (Página 1 alcançada).
+[2025-10-30 14:09:57] [DEBUG] Linhas encontradas na tabela: 10
+[2025-10-30 14:09:57] [DEBUG]   → Dados do modal (Controle Mestre) coletados (linhas: 10).
+[2025-10-30 14:09:57] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:09:57] [INFO]   Iniciando tentativa de coleta e verificação de qualidade 1/3...
+[2025-10-30 14:09:57] [DEBUG] Grid MUI detectado para coleta.
+[2025-10-30 14:09:57] [DEBUG] Resetando grid MUI para a primeira página...
+[2025-10-30 14:09:57] [DEBUG] Grid MUI resetado (Página 1 alcançada).
+[2025-10-30 14:09:58] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:09:58] [DEBUG] Setado 'Linhas por página' para 100 (quando disponível).
+[2025-10-30 14:09:58] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:09:58] [DEBUG] Extraindo 9 linhas da página atual do MUI.
+[2025-10-30 14:09:59] [DEBUG] Botão 'Próxima' desabilitado — fim da paginação MUI.
+[2025-10-30 14:09:59] [SUCCESS] Coleta MUI finalizada. Total registros coletados: 9
+[2025-10-30 14:09:59] [DEBUG] Índice MUI criado com 3 chaves únicas.
+[2025-10-30 14:09:59] [DEBUG] ✅ Verificação de qualidade OK para LUCIANO (2 pedidos).
+[2025-10-30 14:09:59] [DEBUG] ✅ Verificação de qualidade OK para Higo Nogueira (2 pedidos).
+[2025-10-30 14:09:59] [WARN] Não foi possível ler a contagem de pedidos (Coluna 1) para ''. Pulando verificação.
+[2025-10-30 14:09:59] [DEBUG] Cruzamento concluído. Linhas produzidas: 5
+[2025-10-30 14:09:59] [SUCCESS]   ✅ SUCESSO na verificação de qualidade (Tentativa 1). Dados reconciliados.
+[2025-10-30 14:09:59] [SUCCESS]   ✅ Dados cruzados (modal × MUI) adicionados ao consolidado.
+[2025-10-30 14:09:59] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:09:59] [DEBUG] Setado 'Linhas por página' para 100 (quando disponível).
+[2025-10-30 14:10:00] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:10:00] [DEBUG] Extraindo 100 linhas da página atual do MUI.
+[2025-10-30 14:10:00] [SUCCESS] 🏁 Fim do processamento de BEBELU SANDUICHES - Glória Mall na data 29/10/2025.
+[2025-10-30 14:10:00] [INFO] 
+======================================
+[2025-10-30 14:10:00] [INFO] 🧩 Etapa 2: INICIANDO PROCESSAMENTO → BOCA BURGUER | Data: 29/10/2025
+[2025-10-30 14:10:00] [INFO] 🔄 Mudando de loja: BEBELU SANDUICHES - Glória Mall → BOCA BURGUER
+[2025-10-30 14:10:00] [INFO] Mudando loja para: BOCA BURGUER (tentativa 1/2)
+[2025-10-30 14:10:00] [DEBUG] Botão 'Mudar loja' clicado.
+[2025-10-30 14:10:02] [WARN] ⚠️ Timeout ao aguardar interface pós-troca de loja. Tentando estabilizar novamente...
+[2025-10-30 14:10:04] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 14:10:06] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:10:06] [DEBUG] Loja 'BOCA BURGUER' selecionada no menu.
+[2025-10-30 14:10:06] [DEBUG] Navegando para próxima página MUI (passo 1).
+[2025-10-30 14:10:07] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:10:07] [DEBUG] Extraindo 69 linhas da página atual do MUI.
+[2025-10-30 14:10:10] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:10:10] [SUCCESS] Loja 'BOCA BURGUER' agora está ativa e interface estabilizada.
+[2025-10-30 14:10:10] [DEBUG] Botão 'Próxima' desabilitado — fim da paginação MUI.
+[2025-10-30 14:10:10] [SUCCESS] Coleta MUI finalizada. Total registros coletados: 169
+[2025-10-30 14:10:10] [DEBUG] Índice MUI criado com 10 chaves únicas.
+[2025-10-30 14:10:10] [DEBUG] ✅ Verificação de qualidade OK para Mateus Alves (38 pedidos).
+[2025-10-30 14:10:10] [DEBUG] ✅ Verificação de qualidade OK para Teo darc (23 pedidos).
+[2025-10-30 14:10:10] [DEBUG] ✅ Verificação de qualidade OK para Fabio Cesar Pereira de Castro (21 pedidos).
+[2025-10-30 14:10:10] [DEBUG] ✅ Verificação de qualidade OK para Mateus Barros de Sousa (15 pedidos).
+[2025-10-30 14:10:10] [DEBUG] ✅ Verificação de qualidade OK para Wesley (15 pedidos).
+[2025-10-30 14:10:10] [DEBUG] ✅ Verificação de qualidade OK para leandro melo (14 pedidos).
+[2025-10-30 14:10:10] [DEBUG] ✅ Verificação de qualidade OK para Yhan Mateus (14 pedidos).
+[2025-10-30 14:10:10] [DEBUG] ✅ Verificação de qualidade OK para Mikael (11 pedidos).
+[2025-10-30 14:10:10] [DEBUG] ✅ Verificação de qualidade OK para Evaldo Costa (6 pedidos).
+[2025-10-30 14:10:10] [DEBUG] Ignorando verificação de qualidade para a linha 'Total'.
+[2025-10-30 14:10:10] [DEBUG] Cruzamento concluído. Linhas produzidas: 158
+[2025-10-30 14:10:10] [SUCCESS]   ✅ SUCESSO na verificação de qualidade (Tentativa 1). Dados reconciliados.
+[2025-10-30 14:10:10] [SUCCESS]   ✅ Dados cruzados (modal × MUI) adicionados ao consolidado.
+[2025-10-30 14:10:11] [SUCCESS] 🏁 Fim do processamento de CAMARAO TO GO PARANGABA na data 29/10/2025.
+[2025-10-30 14:10:11] [INFO] 
+======================================
+[2025-10-30 14:10:11] [INFO] 🧩 Etapa 2: INICIANDO PROCESSAMENTO → CATATAU LANCHES | Data: 29/10/2025
+[2025-10-30 14:10:11] [INFO] 🔄 Mudando de loja: CAMARAO TO GO PARANGABA → CATATAU LANCHES
+[2025-10-30 14:10:11] [INFO] Mudando loja para: CATATAU LANCHES (tentativa 1/2)
+[2025-10-30 14:10:12] [DEBUG] Botão 'Mudar loja' clicado.
+[2025-10-30 14:10:13] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:10:14] [WARN] ⚠️ Timeout ao aguardar interface pós-troca de loja. Tentando estabilizar novamente...
+[2025-10-30 14:10:14] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:10:14] [INFO] Selecionando menu inicial...
+[2025-10-30 14:10:16] [INFO] Navegando para o relatório de pedidos...
+[2025-10-30 14:10:16] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 14:10:16] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:10:16] [SUCCESS] ✅ Relatório de Pedidos acessado com sucesso.
+[2025-10-30 14:10:17] [DEBUG] Loja 'CATATAU LANCHES' selecionada no menu.
+[2025-10-30 14:10:19] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:10:19] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:10:20] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:10:20] [DEBUG] ✅ Sincronização pós-troca de loja realizada.
+[2025-10-30 14:10:20] [INFO] 📅 Aplicando filtros: 29/10/2025 07:00 → 30/10/2025 07:00
+[2025-10-30 14:10:20] [INFO] Aplicando filtros: 29/10/2025 07:00 a 30/10/2025 07:00
+[2025-10-30 14:10:22] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:10:22] [SUCCESS] Loja 'CATATAU LANCHES' agora está ativa e interface estabilizada.
+[2025-10-30 14:10:25] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:10:26] [SUCCESS] Filtros aplicados. Aguardando a recarga dos dados.
+[2025-10-30 14:10:26] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:10:26] [INFO] Selecionando menu inicial...
+[2025-10-30 14:10:28] [INFO] Navegando para o relatório de pedidos...
+[2025-10-30 14:10:28] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:10:28] [SUCCESS] ✅ Relatório de Pedidos acessado com sucesso.
+[2025-10-30 14:10:29] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:10:29] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:10:29] [INFO] Tentativa 1 de abrir o modal de entregas...
+[2025-10-30 14:10:29] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 14:10:30] [SUCCESS] Modal Resumo de entregas carregado.
+[2025-10-30 14:10:30] [DEBUG] Linhas encontradas na tabela: 2
+[2025-10-30 14:10:30] [DEBUG]   → Dados do modal (Controle Mestre) coletados (linhas: 2).
+[2025-10-30 14:10:30] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:10:30] [INFO]   Iniciando tentativa de coleta e verificação de qualidade 1/3...
+[2025-10-30 14:10:30] [DEBUG] Grid MUI detectado para coleta.
+[2025-10-30 14:10:30] [DEBUG] Resetando grid MUI para a primeira página...
+[2025-10-30 14:10:30] [DEBUG] Grid MUI resetado (Página 1 alcançada).
+[2025-10-30 14:10:31] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:10:31] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:10:31] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:10:31] [DEBUG] Setado 'Linhas por página' para 100 (quando disponível).
+[2025-10-30 14:10:32] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:10:32] [DEBUG] Extraindo 24 linhas da página atual do MUI.
+[2025-10-30 14:10:32] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:10:32] [DEBUG] ✅ Sincronização pós-troca de loja realizada.
+[2025-10-30 14:10:32] [INFO] 📅 Aplicando filtros: 29/10/2025 07:00 → 30/10/2025 07:00
+[2025-10-30 14:10:32] [INFO] Aplicando filtros: 29/10/2025 07:00 a 30/10/2025 07:00
+[2025-10-30 14:10:33] [DEBUG] Botão 'Próxima' desabilitado — fim da paginação MUI.
+[2025-10-30 14:10:33] [SUCCESS] Coleta MUI finalizada. Total registros coletados: 24
+[2025-10-30 14:10:33] [DEBUG] Índice MUI criado com 2 chaves únicas.
+[2025-10-30 14:10:33] [DEBUG] ✅ Verificação de qualidade OK para Matheus Linhares (7 pedidos).
+[2025-10-30 14:10:33] [WARN] Não foi possível ler a contagem de pedidos (Coluna 1) para ''. Pulando verificação.
+[2025-10-30 14:10:33] [DEBUG] Cruzamento concluído. Linhas produzidas: 8
+[2025-10-30 14:10:33] [SUCCESS]   ✅ SUCESSO na verificação de qualidade (Tentativa 1). Dados reconciliados.
+[2025-10-30 14:10:33] [SUCCESS]   ✅ Dados cruzados (modal × MUI) adicionados ao consolidado.
+[2025-10-30 14:10:34] [SUCCESS] 🏁 Fim do processamento de BOCA BURGUER na data 29/10/2025.
+[2025-10-30 14:10:34] [INFO] 
+======================================
+[2025-10-30 14:10:34] [INFO] 🧩 Etapa 2: INICIANDO PROCESSAMENTO → BRAYAN BURGER SUL | Data: 29/10/2025
+[2025-10-30 14:10:34] [INFO] 🔄 Mudando de loja: BOCA BURGUER → BRAYAN BURGER SUL
+[2025-10-30 14:10:34] [INFO] Mudando loja para: BRAYAN BURGER SUL (tentativa 1/2)
+[2025-10-30 14:10:34] [DEBUG] Botão 'Mudar loja' clicado.
+[2025-10-30 14:10:36] [WARN] ⚠️ Timeout ao aguardar interface pós-troca de loja. Tentando estabilizar novamente...
+[2025-10-30 14:10:38] [SUCCESS] Filtros aplicados. Aguardando a recarga dos dados.
+[2025-10-30 14:10:38] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 14:10:40] [DEBUG] Loja 'BRAYAN BURGER SUL' selecionada no menu.
+[2025-10-30 14:10:41] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:10:41] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:10:41] [INFO] Tentativa 1 de abrir o modal de entregas...
+[2025-10-30 14:10:41] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 14:10:41] [SUCCESS] Modal Resumo de entregas carregado.
+[2025-10-30 14:10:41] [DEBUG] Linhas encontradas na tabela: 3
+[2025-10-30 14:10:42] [DEBUG]   → Dados do modal (Controle Mestre) coletados (linhas: 3).
+[2025-10-30 14:10:42] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:10:42] [INFO]   Iniciando tentativa de coleta e verificação de qualidade 1/3...
+[2025-10-30 14:10:42] [DEBUG] Grid MUI detectado para coleta.
+[2025-10-30 14:10:42] [DEBUG] Resetando grid MUI para a primeira página...
+[2025-10-30 14:10:42] [DEBUG] Grid MUI resetado (Página 1 alcançada).
+[2025-10-30 14:10:43] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:10:43] [DEBUG] Setado 'Linhas por página' para 100 (quando disponível).
+[2025-10-30 14:10:43] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:10:43] [DEBUG] Extraindo 13 linhas da página atual do MUI.
+[2025-10-30 14:10:44] [DEBUG] Botão 'Próxima' desabilitado — fim da paginação MUI.
+[2025-10-30 14:10:44] [SUCCESS] Coleta MUI finalizada. Total registros coletados: 13
+[2025-10-30 14:10:44] [DEBUG] Índice MUI criado com 3 chaves únicas.
+[2025-10-30 14:10:44] [DEBUG] ✅ Verificação de qualidade OK para Antônio Davi clemente (6 pedidos).
+[2025-10-30 14:10:44] [DEBUG] ✅ Verificação de qualidade OK para Thiago Silva Morais (5 pedidos).
+[2025-10-30 14:10:44] [WARN] Não foi possível ler a contagem de pedidos (Coluna 1) para ''. Pulando verificação.
+[2025-10-30 14:10:44] [DEBUG] Cruzamento concluído. Linhas produzidas: 12
+[2025-10-30 14:10:44] [SUCCESS]   ✅ SUCESSO na verificação de qualidade (Tentativa 1). Dados reconciliados.
+[2025-10-30 14:10:44] [SUCCESS]   ✅ Dados cruzados (modal × MUI) adicionados ao consolidado.
+[2025-10-30 14:10:44] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:10:44] [SUCCESS] Loja 'BRAYAN BURGER SUL' agora está ativa e interface estabilizada.
+[2025-10-30 14:10:45] [SUCCESS] 🏁 Fim do processamento de CATATAU LANCHES na data 29/10/2025.
+[2025-10-30 14:10:45] [INFO] 
+======================================
+[2025-10-30 14:10:45] [INFO] 🧩 Etapa 2: INICIANDO PROCESSAMENTO → Center Um - DE BEM COM A VIDA | Data: 29/10/2025
+[2025-10-30 14:10:45] [INFO] 🔄 Mudando de loja: CATATAU LANCHES → Center Um - DE BEM COM A VIDA
+[2025-10-30 14:10:45] [INFO] Mudando loja para: Center Um - DE BEM COM A VIDA (tentativa 1/2)
+[2025-10-30 14:10:45] [DEBUG] Botão 'Mudar loja' clicado.
+[2025-10-30 14:10:47] [WARN] ⚠️ Timeout ao aguardar interface pós-troca de loja. Tentando estabilizar novamente...
+[2025-10-30 14:10:47] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:10:48] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:10:48] [INFO] Selecionando menu inicial...
+[2025-10-30 14:10:49] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 14:10:50] [INFO] Navegando para o relatório de pedidos...
+[2025-10-30 14:10:50] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:10:50] [SUCCESS] ✅ Relatório de Pedidos acessado com sucesso.
+[2025-10-30 14:10:51] [DEBUG] Loja 'Center Um - DE BEM COM A VIDA' selecionada no menu.
+[2025-10-30 14:10:53] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:10:53] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:10:54] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:10:54] [DEBUG] ✅ Sincronização pós-troca de loja realizada.
+[2025-10-30 14:10:54] [INFO] 📅 Aplicando filtros: 29/10/2025 07:00 → 30/10/2025 07:00
+[2025-10-30 14:10:54] [INFO] Aplicando filtros: 29/10/2025 07:00 a 30/10/2025 07:00
+[2025-10-30 14:10:56] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:10:56] [SUCCESS] Loja 'Center Um - DE BEM COM A VIDA' agora está ativa e interface estabilizada.
+[2025-10-30 14:10:59] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:11:00] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:11:00] [INFO] Selecionando menu inicial...
+[2025-10-30 14:11:00] [SUCCESS] Filtros aplicados. Aguardando a recarga dos dados.
+[2025-10-30 14:11:01] [INFO] Navegando para o relatório de pedidos...
+[2025-10-30 14:11:01] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:11:01] [SUCCESS] ✅ Relatório de Pedidos acessado com sucesso.
+[2025-10-30 14:11:03] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:11:03] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:11:03] [INFO] Tentativa 1 de abrir o modal de entregas...
+[2025-10-30 14:11:03] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 14:11:04] [SUCCESS] Modal Resumo de entregas carregado.
+[2025-10-30 14:11:04] [DEBUG] Linhas encontradas na tabela: 5
+[2025-10-30 14:11:04] [DEBUG]   → Dados do modal (Controle Mestre) coletados (linhas: 5).
+[2025-10-30 14:11:04] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:11:04] [INFO]   Iniciando tentativa de coleta e verificação de qualidade 1/3...
+[2025-10-30 14:11:04] [DEBUG] Grid MUI detectado para coleta.
+[2025-10-30 14:11:04] [DEBUG] Resetando grid MUI para a primeira página...
+[2025-10-30 14:11:04] [DEBUG] Grid MUI resetado (Página 1 alcançada).
+[2025-10-30 14:11:04] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:11:04] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:11:05] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:11:05] [DEBUG] ✅ Sincronização pós-troca de loja realizada.
+[2025-10-30 14:11:05] [INFO] 📅 Aplicando filtros: 29/10/2025 07:00 → 30/10/2025 07:00
+[2025-10-30 14:11:05] [INFO] Aplicando filtros: 29/10/2025 07:00 a 30/10/2025 07:00
+[2025-10-30 14:11:06] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:11:06] [DEBUG] Setado 'Linhas por página' para 100 (quando disponível).
+[2025-10-30 14:11:06] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:11:06] [DEBUG] Extraindo 55 linhas da página atual do MUI.
+[2025-10-30 14:11:09] [DEBUG] Botão 'Próxima' desabilitado — fim da paginação MUI.
+[2025-10-30 14:11:09] [SUCCESS] Coleta MUI finalizada. Total registros coletados: 55
+[2025-10-30 14:11:09] [DEBUG] Índice MUI criado com 5 chaves únicas.
+[2025-10-30 14:11:09] [DEBUG] ✅ Verificação de qualidade OK para Gabriela Fernandes Leite (15 pedidos).
+[2025-10-30 14:11:09] [DEBUG] ✅ Verificação de qualidade OK para Matheus Levi (14 pedidos).
+[2025-10-30 14:11:09] [DEBUG] ✅ Verificação de qualidade OK para Joao Gabriel Gomes de Queiroz (12 pedidos).
+[2025-10-30 14:11:09] [DEBUG] ✅ Verificação de qualidade OK para Nayana (11 pedidos).
+[2025-10-30 14:11:09] [DEBUG] Ignorando verificação de qualidade para a linha 'Total'.
+[2025-10-30 14:11:09] [DEBUG] Cruzamento concluído. Linhas produzidas: 53
+[2025-10-30 14:11:09] [SUCCESS]   ✅ SUCESSO na verificação de qualidade (Tentativa 1). Dados reconciliados.
+[2025-10-30 14:11:09] [SUCCESS]   ✅ Dados cruzados (modal × MUI) adicionados ao consolidado.
+[2025-10-30 14:11:10] [SUCCESS] 🏁 Fim do processamento de BRAYAN BURGER SUL na data 29/10/2025.
+[2025-10-30 14:11:10] [INFO] 
+======================================
+[2025-10-30 14:11:10] [INFO] 🧩 Etapa 2: INICIANDO PROCESSAMENTO → BUTECO DONA MARIA | Data: 29/10/2025
+[2025-10-30 14:11:10] [INFO] 🔄 Mudando de loja: BRAYAN BURGER SUL → BUTECO DONA MARIA
+[2025-10-30 14:11:10] [INFO] Mudando loja para: BUTECO DONA MARIA (tentativa 1/2)
+[2025-10-30 14:11:11] [DEBUG] Botão 'Mudar loja' clicado.
+[2025-10-30 14:11:12] [SUCCESS] Filtros aplicados. Aguardando a recarga dos dados.
+[2025-10-30 14:11:13] [WARN] ⚠️ Timeout ao aguardar interface pós-troca de loja. Tentando estabilizar novamente...
+[2025-10-30 14:11:15] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 14:11:15] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:11:15] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:11:15] [INFO] Tentativa 1 de abrir o modal de entregas...
+[2025-10-30 14:11:15] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 14:11:15] [SUCCESS] Modal Resumo de entregas carregado.
+[2025-10-30 14:11:16] [DEBUG] Linhas encontradas na tabela: 2
+[2025-10-30 14:11:16] [DEBUG]   → Dados do modal (Controle Mestre) coletados (linhas: 2).
+[2025-10-30 14:11:16] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:11:16] [INFO]   Iniciando tentativa de coleta e verificação de qualidade 1/3...
+[2025-10-30 14:11:16] [DEBUG] Grid MUI detectado para coleta.
+[2025-10-30 14:11:16] [DEBUG] Resetando grid MUI para a primeira página...
+[2025-10-30 14:11:16] [DEBUG] Grid MUI resetado (Página 1 alcançada).
+[2025-10-30 14:11:16] [DEBUG] Loja 'BUTECO DONA MARIA' selecionada no menu.
+[2025-10-30 14:11:17] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:11:17] [DEBUG] Setado 'Linhas por página' para 100 (quando disponível).
+[2025-10-30 14:11:18] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:11:18] [DEBUG] Extraindo 12 linhas da página atual do MUI.
+[2025-10-30 14:11:19] [DEBUG] Botão 'Próxima' desabilitado — fim da paginação MUI.
+[2025-10-30 14:11:19] [SUCCESS] Coleta MUI finalizada. Total registros coletados: 12
+[2025-10-30 14:11:19] [DEBUG] Índice MUI criado com 1 chaves únicas.
+[2025-10-30 14:11:19] [DEBUG] ✅ Verificação de qualidade OK para Wesley Rodrigues de Sousa (12 pedidos).
+[2025-10-30 14:11:19] [DEBUG] Ignorando verificação de qualidade para a linha 'Total'.
+[2025-10-30 14:11:19] [DEBUG] Cruzamento concluído. Linhas produzidas: 13
+[2025-10-30 14:11:19] [SUCCESS]   ✅ SUCESSO na verificação de qualidade (Tentativa 1). Dados reconciliados.
+[2025-10-30 14:11:19] [SUCCESS]   ✅ Dados cruzados (modal × MUI) adicionados ao consolidado.
+[2025-10-30 14:11:20] [SUCCESS] 🏁 Fim do processamento de Center Um - DE BEM COM A VIDA na data 29/10/2025.
+[2025-10-30 14:11:20] [INFO] 
+======================================
+[2025-10-30 14:11:20] [INFO] 🧩 Etapa 2: INICIANDO PROCESSAMENTO → CHEPPITOS 13 DE MAIO | Data: 29/10/2025
+[2025-10-30 14:11:20] [INFO] 🔄 Mudando de loja: Center Um - DE BEM COM A VIDA → CHEPPITOS 13 DE MAIO
+[2025-10-30 14:11:20] [INFO] Mudando loja para: CHEPPITOS 13 DE MAIO (tentativa 1/2)
+[2025-10-30 14:11:20] [DEBUG] Botão 'Mudar loja' clicado.
+[2025-10-30 14:11:21] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:11:21] [SUCCESS] Loja 'BUTECO DONA MARIA' agora está ativa e interface estabilizada.
+[2025-10-30 14:11:22] [WARN] ⚠️ Timeout ao aguardar interface pós-troca de loja. Tentando estabilizar novamente...
+[2025-10-30 14:11:24] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 14:11:24] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:11:25] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:11:25] [INFO] Selecionando menu inicial...
+[2025-10-30 14:11:25] [DEBUG] Loja 'CHEPPITOS 13 DE MAIO' selecionada no menu.
+[2025-10-30 14:11:27] [INFO] Navegando para o relatório de pedidos...
+[2025-10-30 14:11:27] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:11:27] [SUCCESS] ✅ Relatório de Pedidos acessado com sucesso.
+[2025-10-30 14:11:30] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:11:30] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:11:31] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:11:31] [DEBUG] ✅ Sincronização pós-troca de loja realizada.
+[2025-10-30 14:11:31] [INFO] 📅 Aplicando filtros: 29/10/2025 07:00 → 30/10/2025 07:00
+[2025-10-30 14:11:31] [INFO] Aplicando filtros: 29/10/2025 07:00 a 30/10/2025 07:00
+[2025-10-30 14:11:31] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:11:31] [SUCCESS] Loja 'CHEPPITOS 13 DE MAIO' agora está ativa e interface estabilizada.
+[2025-10-30 14:11:34] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:11:35] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:11:35] [INFO] Selecionando menu inicial...
+[2025-10-30 14:11:37] [INFO] Navegando para o relatório de pedidos...
+[2025-10-30 14:11:37] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:11:37] [SUCCESS] ✅ Relatório de Pedidos acessado com sucesso.
+[2025-10-30 14:11:40] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:11:40] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:11:40] [SUCCESS] Filtros aplicados. Aguardando a recarga dos dados.
+[2025-10-30 14:11:41] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:11:41] [DEBUG] ✅ Sincronização pós-troca de loja realizada.
+[2025-10-30 14:11:41] [INFO] 📅 Aplicando filtros: 29/10/2025 07:00 → 30/10/2025 07:00
+[2025-10-30 14:11:41] [INFO] Aplicando filtros: 29/10/2025 07:00 a 30/10/2025 07:00
+[2025-10-30 14:11:43] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:11:43] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:11:43] [INFO] Tentativa 1 de abrir o modal de entregas...
+[2025-10-30 14:11:43] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 14:11:44] [SUCCESS] Modal Resumo de entregas carregado.
+[2025-10-30 14:11:44] [DEBUG] Linhas encontradas na tabela: 8
+[2025-10-30 14:11:44] [DEBUG]   → Dados do modal (Controle Mestre) coletados (linhas: 8).
+[2025-10-30 14:11:44] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:11:44] [INFO]   Iniciando tentativa de coleta e verificação de qualidade 1/3...
+[2025-10-30 14:11:44] [DEBUG] Grid MUI detectado para coleta.
+[2025-10-30 14:11:44] [DEBUG] Resetando grid MUI para a primeira página...
+[2025-10-30 14:11:44] [DEBUG] Grid MUI resetado (Página 1 alcançada).
+[2025-10-30 14:11:45] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:11:45] [DEBUG] Setado 'Linhas por página' para 100 (quando disponível).
+[2025-10-30 14:11:46] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:11:46] [DEBUG] Extraindo 80 linhas da página atual do MUI.
+[2025-10-30 14:11:47] [SUCCESS] Filtros aplicados. Aguardando a recarga dos dados.
+[2025-10-30 14:11:50] [DEBUG] Botão 'Próxima' desabilitado — fim da paginação MUI.
+[2025-10-30 14:11:50] [SUCCESS] Coleta MUI finalizada. Total registros coletados: 80
+[2025-10-30 14:11:50] [DEBUG] Índice MUI criado com 8 chaves únicas.
+[2025-10-30 14:11:50] [DEBUG] ✅ Verificação de qualidade OK para Ryan sousa (17 pedidos).
+[2025-10-30 14:11:50] [DEBUG] ✅ Verificação de qualidade OK para Felipe Nero 2482 (12 pedidos).
+[2025-10-30 14:11:50] [DEBUG] ✅ Verificação de qualidade OK para Matheus Sousa Xavier (11 pedidos).
+[2025-10-30 14:11:50] [DEBUG] ✅ Verificação de qualidade OK para Emanoel Vicente silva de Freitas junior (10 pedidos).
+[2025-10-30 14:11:50] [DEBUG] ✅ Verificação de qualidade OK para Natanael Bastos Oliveira (10 pedidos).
+[2025-10-30 14:11:50] [DEBUG] ✅ Verificação de qualidade OK para Leonardo Nogueira de Araújo (8 pedidos).
+[2025-10-30 14:11:50] [DEBUG] ✅ Verificação de qualidade OK para Mikael Nobre (8 pedidos).
+[2025-10-30 14:11:50] [DEBUG] Ignorando verificação de qualidade para a linha 'Total'.
+[2025-10-30 14:11:50] [DEBUG] Cruzamento concluído. Linhas produzidas: 77
+[2025-10-30 14:11:50] [SUCCESS]   ✅ SUCESSO na verificação de qualidade (Tentativa 1). Dados reconciliados.
+[2025-10-30 14:11:50] [SUCCESS]   ✅ Dados cruzados (modal × MUI) adicionados ao consolidado.
+[2025-10-30 14:11:50] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:11:50] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:11:50] [INFO] Tentativa 1 de abrir o modal de entregas...
+[2025-10-30 14:11:50] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 14:11:51] [SUCCESS] Modal Resumo de entregas carregado.
+[2025-10-30 14:11:51] [DEBUG] Linhas encontradas na tabela: 6
+[2025-10-30 14:11:51] [SUCCESS] 🏁 Fim do processamento de BUTECO DONA MARIA na data 29/10/2025.
+[2025-10-30 14:11:51] [INFO] ======================================
+[2025-10-30 14:11:51] [INFO] 📊 RESUMO FINAL DE CAPTURA DE DADOS:
+[2025-10-30 14:11:51] [INFO]   - ARRETADO DOCES: PENDENTE
+[2025-10-30 14:11:51] [INFO]   - BEBELU SANDUICHES - Glória Mall: SUCESSO
+[2025-10-30 14:11:51] [INFO]   - BOCA BURGUER: SUCESSO
+[2025-10-30 14:11:51] [INFO]   - BRAYAN BURGER SUL: SUCESSO
+[2025-10-30 14:11:51] [INFO]   - BUTECO DONA MARIA: SUCESSO
+[2025-10-30 14:11:51] [SUCCESS] Resumo geral → SUCESSO: 4; AVISO QUALIDADE: 0; PENDENTE: 1
+[2025-10-30 14:11:51] [DEBUG] Coluna 'Classificação do Turno' adicionada com sucesso.
+[2025-10-30 14:11:51] [DEBUG] Colunas 'Classificação do Dia' e 'Pagamento por Turno' adicionadas com sucesso.
+[2025-10-30 14:11:51] [SUCCESS] Exportação CONSOLIDADA concluída com sucesso: resumo_entregadores_T1_20251030_141151.csv
+[2025-10-30 14:11:51] [SUCCESS] [THREAD 1] Lote concluído com sucesso.
+[2025-10-30 14:11:51] [INFO] [THREAD 1] Driver encerrado.
+[2025-10-30 14:11:51] [DEBUG]   → Dados do modal (Controle Mestre) coletados (linhas: 6).
+[2025-10-30 14:11:51] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:11:51] [INFO]   Iniciando tentativa de coleta e verificação de qualidade 1/3...
+[2025-10-30 14:11:51] [DEBUG] Grid MUI detectado para coleta.
+[2025-10-30 14:11:51] [DEBUG] Resetando grid MUI para a primeira página...
+[2025-10-30 14:11:52] [DEBUG] Grid MUI resetado (Página 1 alcançada).
+[2025-10-30 14:11:53] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:11:53] [DEBUG] Setado 'Linhas por página' para 100 (quando disponível).
+[2025-10-30 14:11:53] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:11:53] [DEBUG] Extraindo 74 linhas da página atual do MUI.
+[2025-10-30 14:11:57] [DEBUG] Botão 'Próxima' desabilitado — fim da paginação MUI.
+[2025-10-30 14:11:57] [SUCCESS] Coleta MUI finalizada. Total registros coletados: 74
+[2025-10-30 14:11:57] [DEBUG] Índice MUI criado com 6 chaves únicas.
+[2025-10-30 14:11:57] [DEBUG] ✅ Verificação de qualidade OK para Alessandro miguel (22 pedidos).
+[2025-10-30 14:11:57] [DEBUG] ✅ Verificação de qualidade OK para Thyago Barros rosa (20 pedidos).
+[2025-10-30 14:11:57] [DEBUG] ✅ Verificação de qualidade OK para Marcos Vinicius (14 pedidos).
+[2025-10-30 14:11:57] [DEBUG] ✅ Verificação de qualidade OK para wagner Maciel da Silva (9 pedidos).
+[2025-10-30 14:11:57] [DEBUG] ✅ Verificação de qualidade OK para Lucas Kauã de Souza Alves (7 pedidos).
+[2025-10-30 14:11:57] [DEBUG] Ignorando verificação de qualidade para a linha 'Total'.
+[2025-10-30 14:11:57] [DEBUG] Cruzamento concluído. Linhas produzidas: 73
+[2025-10-30 14:11:57] [SUCCESS]   ✅ SUCESSO na verificação de qualidade (Tentativa 1). Dados reconciliados.
+[2025-10-30 14:11:57] [SUCCESS]   ✅ Dados cruzados (modal × MUI) adicionados ao consolidado.
+[2025-10-30 14:11:58] [SUCCESS] 🏁 Fim do processamento de CHEPPITOS 13 DE MAIO na data 29/10/2025.
+[2025-10-30 14:11:58] [INFO] ======================================
+[2025-10-30 14:11:58] [INFO] 📊 RESUMO FINAL DE CAPTURA DE DADOS:
+[2025-10-30 14:11:58] [INFO]   - CALORENTOS BURGUER: SUCESSO
+[2025-10-30 14:11:58] [INFO]   - CAMARAO TO GO PARANGABA: SUCESSO
+[2025-10-30 14:11:58] [INFO]   - CATATAU LANCHES: SUCESSO
+[2025-10-30 14:11:58] [INFO]   - Center Um - DE BEM COM A VIDA: SUCESSO
+[2025-10-30 14:11:58] [INFO]   - CHEPPITOS 13 DE MAIO: SUCESSO
+[2025-10-30 14:11:58] [SUCCESS] Resumo geral → SUCESSO: 5; AVISO QUALIDADE: 0; PENDENTE: 0
+[2025-10-30 14:11:58] [DEBUG] Coluna 'Classificação do Turno' adicionada com sucesso.
+[2025-10-30 14:11:58] [DEBUG] Colunas 'Classificação do Dia' e 'Pagamento por Turno' adicionadas com sucesso.
+[2025-10-30 14:11:58] [SUCCESS] Exportação CONSOLIDADA concluída com sucesso: resumo_entregadores_T2_20251030_141158.csv
+[2025-10-30 14:11:58] [SUCCESS] [THREAD 2] Lote concluído com sucesso.
+[2025-10-30 14:11:58] [INFO] [THREAD 2] Driver encerrado.
+[2025-10-30 14:11:58] [DEBUG] Mesclagem: carregado resumo_entregadores_T1_20251030_141151.csv (141 linhas).
+[2025-10-30 14:11:58] [DEBUG] Mesclagem: carregado resumo_entregadores_T2_20251030_141158.csv (272 linhas).
+[2025-10-30 14:11:58] [SUCCESS] ✅ CSV final mesclado gerado: resumo_entregadores_FINAL_29-10-2025_20251030_141158.csv (total 413 linhas)
+[2025-10-30 14:11:58] [SUCCESS] ✅ Execução multithread concluída com sucesso.
+[2025-10-30 14:11:58] [INFO] Duração total: 0:03:23.919947
+[2025-10-30 14:11:58] [INFO] XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+[2025-10-30 14:23:19] [INFO] XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+[2025-10-30 14:23:19] [INFO] Iniciando automação Agilizone Hashtag...
+[2025-10-30 14:23:19] [INFO] Modo atual: PRODUÇÃO
+[2025-10-30 14:23:19] [DEBUG] Limpando arquivos CSV temporários de execuções anteriores...
+[2025-10-30 14:23:19] [DEBUG] Nenhum CSV temporário antigo encontrado.
+[2025-10-30 14:23:19] [INFO] Lendo datas do arquivo: data_param.txt
+[2025-10-30 14:23:19] [SUCCESS] Total de 1 datas carregadas para processamento.
+[2025-10-30 14:23:19] [INFO] Lendo planilha: Informes Lojas Hashtag.xlsx
+[2025-10-30 14:23:20] [SUCCESS] Planilha lida com sucesso. Total de 10 lojas processadas.
+[2025-10-30 14:23:20] [INFO] Preparando execução multithread (2 threads)...
+[2025-10-30 14:23:20] [DEBUG] Tamanhos dos lotes: [5, 5]
+[2025-10-30 14:23:20] [INFO] >>>> EXECUÇÃO MULTITHREAD PARA A DATA: 29/10/2025 <<<<
+[2025-10-30 14:23:20] [INFO] [THREAD 1] Iniciando driver otimizado...
+[2025-10-30 14:23:23] [INFO] [THREAD 1] Iniciando lote (5 lojas)...
+[2025-10-30 14:23:23] [INFO] 🧩 Etapa 1: Iniciando login e configuração da primeira loja (ARRETADO DOCES)...
+[2025-10-30 14:23:23] [INFO] Acessando portal...
+[2025-10-30 14:23:27] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:23:27] [SUCCESS] Login realizado e interface carregada.
+[2025-10-30 14:23:27] [INFO] Selecionando loja inicial: ARRETADO DOCES
+[2025-10-30 14:23:30] [INFO] [THREAD 2] Iniciando driver otimizado...
+[2025-10-30 14:23:31] [INFO] [THREAD 2] Iniciando lote (5 lojas)...
+[2025-10-30 14:23:31] [INFO] 🧩 Etapa 1: Iniciando login e configuração da primeira loja (CALORENTOS BURGUER)...
+[2025-10-30 14:23:31] [INFO] Acessando portal...
+[2025-10-30 14:23:39] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:23:39] [SUCCESS] ✅ Loja 'ARRETADO DOCES' selecionada e estável.
+[2025-10-30 14:23:39] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:23:40] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:23:40] [SUCCESS] Login realizado e interface carregada.
+[2025-10-30 14:23:40] [INFO] Selecionando loja inicial: CALORENTOS BURGUER
+[2025-10-30 14:23:42] [INFO] Selecionando menu inicial...
+[2025-10-30 14:23:43] [INFO] Navegando para o relatório de pedidos...
+[2025-10-30 14:23:44] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:23:44] [SUCCESS] ✅ Relatório de Pedidos acessado com sucesso.
+[2025-10-30 14:23:44] [INFO] Sincronizando interface e fechando popups antes da 1ª interação com filtros.
+[2025-10-30 14:23:47] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:23:47] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:23:48] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:23:48] [INFO] 
+======================================
+[2025-10-30 14:23:48] [INFO] 🧩 Etapa 2: INICIANDO PROCESSAMENTO → ARRETADO DOCES | Data: 29/10/2025
+[2025-10-30 14:23:48] [INFO] 📅 Aplicando filtros: 29/10/2025 07:00 → 30/10/2025 07:00
+[2025-10-30 14:23:48] [INFO] Aplicando filtros: 29/10/2025 07:00 a 30/10/2025 07:00
+[2025-10-30 14:23:49] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:23:49] [SUCCESS] ✅ Loja 'CALORENTOS BURGUER' selecionada e estável.
+[2025-10-30 14:23:49] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:23:52] [INFO] Selecionando menu inicial...
+[2025-10-30 14:23:53] [INFO] Navegando para o relatório de pedidos...
+[2025-10-30 14:23:54] [SUCCESS] Filtros aplicados. Aguardando a recarga dos dados.
+[2025-10-30 14:23:55] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:23:55] [SUCCESS] ✅ Relatório de Pedidos acessado com sucesso.
+[2025-10-30 14:23:55] [INFO] Sincronizando interface e fechando popups antes da 1ª interação com filtros.
+[2025-10-30 14:23:57] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:23:57] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:23:57] [INFO] Tentativa 1 de abrir o modal de entregas...
+[2025-10-30 14:23:57] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 14:23:58] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:23:58] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:23:59] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:23:59] [INFO] 
+======================================
+[2025-10-30 14:23:59] [INFO] 🧩 Etapa 2: INICIANDO PROCESSAMENTO → CALORENTOS BURGUER | Data: 29/10/2025
+[2025-10-30 14:23:59] [INFO] 📅 Aplicando filtros: 29/10/2025 07:00 → 30/10/2025 07:00
+[2025-10-30 14:23:59] [INFO] Aplicando filtros: 29/10/2025 07:00 a 30/10/2025 07:00
+[2025-10-30 14:23:59] [WARN] ⏳ Timeout: elemento não ficou clicável (xpath, //button[contains(text(), 'Resumo de entregas por entregador')])
+[2025-10-30 14:24:01] [WARN] Timeout: Botão 'Resumo de entregas' não ficou clicável ou modal não carregou. Pulando extração.
+[2025-10-30 14:24:03] [INFO] Tentativa 2 de abrir o modal de entregas...
+[2025-10-30 14:24:03] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 14:24:05] [SUCCESS] Filtros aplicados. Aguardando a recarga dos dados.
+[2025-10-30 14:24:05] [WARN] ⏳ Timeout: elemento não ficou clicável (xpath, //button[contains(text(), 'Resumo de entregas por entregador')])
+[2025-10-30 14:24:07] [WARN] Timeout: Botão 'Resumo de entregas' não ficou clicável ou modal não carregou. Pulando extração.
+[2025-10-30 14:24:08] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:24:08] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:24:08] [INFO] Tentativa 1 de abrir o modal de entregas...
+[2025-10-30 14:24:08] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 14:24:08] [SUCCESS] Modal Resumo de entregas carregado.
+[2025-10-30 14:24:08] [DEBUG] Linhas encontradas na tabela: 3
+[2025-10-30 14:24:08] [DEBUG]   → Dados do modal (Controle Mestre) coletados (linhas: 3).
+[2025-10-30 14:24:09] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:24:09] [INFO]   Iniciando tentativa de coleta e verificação de qualidade 1/3...
+[2025-10-30 14:24:09] [DEBUG] Grid MUI detectado para coleta.
+[2025-10-30 14:24:09] [DEBUG] Resetando grid MUI para a primeira página...
+[2025-10-30 14:24:09] [DEBUG] Grid MUI resetado (Página 1 alcançada).
+[2025-10-30 14:24:09] [INFO] Tentativa 3 de abrir o modal de entregas...
+[2025-10-30 14:24:09] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 14:24:10] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:24:10] [DEBUG] Setado 'Linhas por página' para 100 (quando disponível).
+[2025-10-30 14:24:11] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:24:11] [DEBUG] Extraindo 22 linhas da página atual do MUI.
+[2025-10-30 14:24:11] [WARN] ⏳ Timeout: elemento não ficou clicável (xpath, //button[contains(text(), 'Resumo de entregas por entregador')])
+[2025-10-30 14:24:12] [DEBUG] Botão 'Próxima' desabilitado — fim da paginação MUI.
+[2025-10-30 14:24:12] [SUCCESS] Coleta MUI finalizada. Total registros coletados: 22
+[2025-10-30 14:24:12] [DEBUG] Índice MUI criado com 3 chaves únicas.
+[2025-10-30 14:24:12] [DEBUG] ✅ Verificação de qualidade OK para Paulo Nepomuceno Azevedo (10 pedidos).
+[2025-10-30 14:24:12] [DEBUG] ✅ Verificação de qualidade OK para Antonio Walber Oliveira da Costa (9 pedidos).
+[2025-10-30 14:24:12] [DEBUG] Ignorando verificação de qualidade para a linha 'Total'.
+[2025-10-30 14:24:12] [DEBUG] Cruzamento concluído. Linhas produzidas: 20
+[2025-10-30 14:24:12] [SUCCESS]   ✅ SUCESSO na verificação de qualidade (Tentativa 1). Dados reconciliados.
+[2025-10-30 14:24:12] [SUCCESS]   ✅ Dados cruzados (modal × MUI) adicionados ao consolidado.
+[2025-10-30 14:24:13] [SUCCESS] 🏁 Fim do processamento de CALORENTOS BURGUER na data 29/10/2025.
+[2025-10-30 14:24:13] [INFO] 
+======================================
+[2025-10-30 14:24:13] [INFO] 🧩 Etapa 2: INICIANDO PROCESSAMENTO → CAMARAO TO GO PARANGABA | Data: 29/10/2025
+[2025-10-30 14:24:13] [INFO] 🔄 Mudando de loja: CALORENTOS BURGUER → CAMARAO TO GO PARANGABA
+[2025-10-30 14:24:13] [INFO] Mudando loja para: CAMARAO TO GO PARANGABA (tentativa 1/2)
+[2025-10-30 14:24:13] [DEBUG] Botão 'Mudar loja' clicado.
+[2025-10-30 14:24:14] [WARN] Timeout: Botão 'Resumo de entregas' não ficou clicável ou modal não carregou. Pulando extração.
+[2025-10-30 14:24:15] [WARN] ⚠️ Timeout ao aguardar interface pós-troca de loja. Tentando estabilizar novamente...
+[2025-10-30 14:24:16] [WARN] ⚠️ Falha após 3 tentativas de abrir o modal. Nenhuma extração realizada.
+[2025-10-30 14:24:17] [SUCCESS] 🏁 Fim do processamento de ARRETADO DOCES na data 29/10/2025.
+[2025-10-30 14:24:17] [INFO] 
+======================================
+[2025-10-30 14:24:17] [INFO] 🧩 Etapa 2: INICIANDO PROCESSAMENTO → BEBELU SANDUICHES - Glória Mall | Data: 29/10/2025
+[2025-10-30 14:24:17] [INFO] 🔄 Mudando de loja: ARRETADO DOCES → BEBELU SANDUICHES - Glória Mall
+[2025-10-30 14:24:17] [INFO] Mudando loja para: BEBELU SANDUICHES - Glória Mall (tentativa 1/2)
+[2025-10-30 14:24:17] [DEBUG] Botão 'Mudar loja' clicado.
+[2025-10-30 14:24:17] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 14:24:19] [DEBUG] Loja 'CAMARAO TO GO PARANGABA' selecionada no menu.
+[2025-10-30 14:24:19] [WARN] ⚠️ Timeout ao aguardar interface pós-troca de loja. Tentando estabilizar novamente...
+[2025-10-30 14:24:21] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 14:24:22] [DEBUG] Loja 'BEBELU SANDUICHES - Glória Mall' selecionada no menu.
+[2025-10-30 14:24:24] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:24:24] [SUCCESS] Loja 'CAMARAO TO GO PARANGABA' agora está ativa e interface estabilizada.
+[2025-10-30 14:24:27] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:24:27] [SUCCESS] Loja 'BEBELU SANDUICHES - Glória Mall' agora está ativa e interface estabilizada.
+[2025-10-30 14:24:27] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:24:28] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:24:28] [INFO] Selecionando menu inicial...
+[2025-10-30 14:24:30] [INFO] Navegando para o relatório de pedidos...
+[2025-10-30 14:24:30] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:24:30] [SUCCESS] ✅ Relatório de Pedidos acessado com sucesso.
+[2025-10-30 14:24:30] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:24:31] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:24:31] [INFO] Selecionando menu inicial...
+[2025-10-30 14:24:32] [INFO] Navegando para o relatório de pedidos...
+[2025-10-30 14:24:33] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:24:33] [SUCCESS] ✅ Relatório de Pedidos acessado com sucesso.
+[2025-10-30 14:24:33] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:24:33] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:24:34] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:24:34] [DEBUG] ✅ Sincronização pós-troca de loja realizada.
+[2025-10-30 14:24:34] [INFO] 📅 Aplicando filtros: 29/10/2025 07:00 → 30/10/2025 07:00
+[2025-10-30 14:24:34] [INFO] Aplicando filtros: 29/10/2025 07:00 a 30/10/2025 07:00
+[2025-10-30 14:24:36] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:24:36] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:24:37] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:24:37] [DEBUG] ✅ Sincronização pós-troca de loja realizada.
+[2025-10-30 14:24:37] [INFO] 📅 Aplicando filtros: 29/10/2025 07:00 → 30/10/2025 07:00
+[2025-10-30 14:24:37] [INFO] Aplicando filtros: 29/10/2025 07:00 a 30/10/2025 07:00
+[2025-10-30 14:24:42] [SUCCESS] Filtros aplicados. Aguardando a recarga dos dados.
+[2025-10-30 14:24:43] [SUCCESS] Filtros aplicados. Aguardando a recarga dos dados.
+[2025-10-30 14:24:45] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:24:45] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:24:45] [INFO] Tentativa 1 de abrir o modal de entregas...
+[2025-10-30 14:24:45] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 14:24:46] [SUCCESS] Modal Resumo de entregas carregado.
+[2025-10-30 14:24:46] [DEBUG] Linhas encontradas na tabela: 10
+[2025-10-30 14:24:46] [DEBUG]   → Dados do modal (Controle Mestre) coletados (linhas: 10).
+[2025-10-30 14:24:46] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:24:46] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:24:46] [INFO] Tentativa 1 de abrir o modal de entregas...
+[2025-10-30 14:24:46] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 14:24:47] [SUCCESS] Modal Resumo de entregas carregado.
+[2025-10-30 14:24:47] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:24:47] [INFO]   Iniciando tentativa de coleta e verificação de qualidade 1/3...
+[2025-10-30 14:24:47] [DEBUG] Grid MUI detectado para coleta.
+[2025-10-30 14:24:47] [DEBUG] Resetando grid MUI para a primeira página...
+[2025-10-30 14:24:47] [DEBUG] Grid MUI resetado (Página 1 alcançada).
+[2025-10-30 14:24:47] [DEBUG] Linhas encontradas na tabela: 3
+[2025-10-30 14:24:47] [DEBUG]   → Dados do modal (Controle Mestre) coletados (linhas: 3).
+[2025-10-30 14:24:47] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:24:47] [INFO]   Iniciando tentativa de coleta e verificação de qualidade 1/3...
+[2025-10-30 14:24:47] [DEBUG] Grid MUI detectado para coleta.
+[2025-10-30 14:24:47] [DEBUG] Resetando grid MUI para a primeira página...
+[2025-10-30 14:24:47] [DEBUG] Grid MUI resetado (Página 1 alcançada).
+[2025-10-30 14:24:48] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:24:48] [DEBUG] Setado 'Linhas por página' para 100 (quando disponível).
+[2025-10-30 14:24:48] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:24:48] [DEBUG] Setado 'Linhas por página' para 100 (quando disponível).
+[2025-10-30 14:24:48] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:24:48] [DEBUG] Extraindo 100 linhas da página atual do MUI.
+[2025-10-30 14:24:49] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:24:49] [DEBUG] Extraindo 9 linhas da página atual do MUI.
+[2025-10-30 14:24:49] [DEBUG] Botão 'Próxima' desabilitado — fim da paginação MUI.
+[2025-10-30 14:24:49] [SUCCESS] Coleta MUI finalizada. Total registros coletados: 9
+[2025-10-30 14:24:49] [DEBUG] Índice MUI criado com 3 chaves únicas.
+[2025-10-30 14:24:49] [DEBUG] ✅ Verificação de qualidade OK para LUCIANO (2 pedidos).
+[2025-10-30 14:24:49] [DEBUG] ✅ Verificação de qualidade OK para Higo Nogueira (2 pedidos).
+[2025-10-30 14:24:49] [WARN] Não foi possível ler a contagem de pedidos (Coluna 1) para ''. Pulando verificação.
+[2025-10-30 14:24:49] [DEBUG] Cruzamento concluído. Linhas produzidas: 5
+[2025-10-30 14:24:49] [SUCCESS]   ✅ SUCESSO na verificação de qualidade (Tentativa 1). Dados reconciliados.
+[2025-10-30 14:24:49] [SUCCESS]   ✅ Dados cruzados (modal × MUI) adicionados ao consolidado.
+[2025-10-30 14:24:50] [SUCCESS] 🏁 Fim do processamento de BEBELU SANDUICHES - Glória Mall na data 29/10/2025.
+[2025-10-30 14:24:50] [INFO] 
+======================================
+[2025-10-30 14:24:50] [INFO] 🧩 Etapa 2: INICIANDO PROCESSAMENTO → BOCA BURGUER | Data: 29/10/2025
+[2025-10-30 14:24:50] [INFO] 🔄 Mudando de loja: BEBELU SANDUICHES - Glória Mall → BOCA BURGUER
+[2025-10-30 14:24:50] [INFO] Mudando loja para: BOCA BURGUER (tentativa 1/2)
+[2025-10-30 14:24:51] [DEBUG] Botão 'Mudar loja' clicado.
+[2025-10-30 14:24:53] [WARN] ⚠️ Timeout ao aguardar interface pós-troca de loja. Tentando estabilizar novamente...
+[2025-10-30 14:24:54] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:24:55] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 14:24:55] [DEBUG] Navegando para próxima página MUI (passo 1).
+[2025-10-30 14:24:55] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:24:55] [DEBUG] Extraindo 69 linhas da página atual do MUI.
+[2025-10-30 14:24:56] [DEBUG] Loja 'BOCA BURGUER' selecionada no menu.
+[2025-10-30 14:24:59] [DEBUG] Botão 'Próxima' desabilitado — fim da paginação MUI.
+[2025-10-30 14:24:59] [SUCCESS] Coleta MUI finalizada. Total registros coletados: 169
+[2025-10-30 14:24:59] [DEBUG] Índice MUI criado com 10 chaves únicas.
+[2025-10-30 14:24:59] [DEBUG] ✅ Verificação de qualidade OK para Mateus Alves (38 pedidos).
+[2025-10-30 14:24:59] [DEBUG] ✅ Verificação de qualidade OK para Teo darc (23 pedidos).
+[2025-10-30 14:24:59] [DEBUG] ✅ Verificação de qualidade OK para Fabio Cesar Pereira de Castro (21 pedidos).
+[2025-10-30 14:24:59] [DEBUG] ✅ Verificação de qualidade OK para Mateus Barros de Sousa (15 pedidos).
+[2025-10-30 14:24:59] [DEBUG] ✅ Verificação de qualidade OK para Wesley (15 pedidos).
+[2025-10-30 14:24:59] [DEBUG] ✅ Verificação de qualidade OK para leandro melo (14 pedidos).
+[2025-10-30 14:24:59] [DEBUG] ✅ Verificação de qualidade OK para Yhan Mateus (14 pedidos).
+[2025-10-30 14:24:59] [DEBUG] ✅ Verificação de qualidade OK para Mikael (11 pedidos).
+[2025-10-30 14:24:59] [DEBUG] ✅ Verificação de qualidade OK para Evaldo Costa (6 pedidos).
+[2025-10-30 14:24:59] [DEBUG] Ignorando verificação de qualidade para a linha 'Total'.
+[2025-10-30 14:24:59] [DEBUG] Cruzamento concluído. Linhas produzidas: 158
+[2025-10-30 14:24:59] [SUCCESS]   ✅ SUCESSO na verificação de qualidade (Tentativa 1). Dados reconciliados.
+[2025-10-30 14:24:59] [SUCCESS]   ✅ Dados cruzados (modal × MUI) adicionados ao consolidado.
+[2025-10-30 14:25:00] [SUCCESS] 🏁 Fim do processamento de CAMARAO TO GO PARANGABA na data 29/10/2025.
+[2025-10-30 14:25:00] [INFO] 
+======================================
+[2025-10-30 14:25:00] [INFO] 🧩 Etapa 2: INICIANDO PROCESSAMENTO → CATATAU LANCHES | Data: 29/10/2025
+[2025-10-30 14:25:00] [INFO] 🔄 Mudando de loja: CAMARAO TO GO PARANGABA → CATATAU LANCHES
+[2025-10-30 14:25:00] [INFO] Mudando loja para: CATATAU LANCHES (tentativa 1/2)
+[2025-10-30 14:25:00] [DEBUG] Botão 'Mudar loja' clicado.
+[2025-10-30 14:25:01] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:25:01] [SUCCESS] Loja 'BOCA BURGUER' agora está ativa e interface estabilizada.
+[2025-10-30 14:25:02] [WARN] ⚠️ Timeout ao aguardar interface pós-troca de loja. Tentando estabilizar novamente...
+[2025-10-30 14:25:04] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:25:04] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 14:25:05] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:25:05] [INFO] Selecionando menu inicial...
+[2025-10-30 14:25:06] [DEBUG] Loja 'CATATAU LANCHES' selecionada no menu.
+[2025-10-30 14:25:06] [INFO] Navegando para o relatório de pedidos...
+[2025-10-30 14:25:06] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:25:06] [SUCCESS] ✅ Relatório de Pedidos acessado com sucesso.
+[2025-10-30 14:25:09] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:25:09] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:25:10] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:25:10] [DEBUG] ✅ Sincronização pós-troca de loja realizada.
+[2025-10-30 14:25:10] [INFO] 📅 Aplicando filtros: 29/10/2025 07:00 → 30/10/2025 07:00
+[2025-10-30 14:25:10] [INFO] Aplicando filtros: 29/10/2025 07:00 a 30/10/2025 07:00
+[2025-10-30 14:25:17] [SUCCESS] Filtros aplicados. Aguardando a recarga dos dados.
+[2025-10-30 14:25:18] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:25:18] [SUCCESS] Loja 'CATATAU LANCHES' agora está ativa e interface estabilizada.
+[2025-10-30 14:25:20] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:25:20] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:25:20] [INFO] Tentativa 1 de abrir o modal de entregas...
+[2025-10-30 14:25:20] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 14:25:20] [SUCCESS] Modal Resumo de entregas carregado.
+[2025-10-30 14:25:20] [DEBUG] Linhas encontradas na tabela: 2
+[2025-10-30 14:25:20] [DEBUG]   → Dados do modal (Controle Mestre) coletados (linhas: 2).
+[2025-10-30 14:25:21] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:25:21] [INFO]   Iniciando tentativa de coleta e verificação de qualidade 1/3...
+[2025-10-30 14:25:21] [DEBUG] Grid MUI detectado para coleta.
+[2025-10-30 14:25:21] [DEBUG] Resetando grid MUI para a primeira página...
+[2025-10-30 14:25:21] [DEBUG] Grid MUI resetado (Página 1 alcançada).
+[2025-10-30 14:25:21] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:25:22] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:25:22] [INFO] Selecionando menu inicial...
+[2025-10-30 14:25:22] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:25:22] [DEBUG] Setado 'Linhas por página' para 100 (quando disponível).
+[2025-10-30 14:25:23] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:25:23] [DEBUG] Extraindo 24 linhas da página atual do MUI.
+[2025-10-30 14:25:23] [INFO] Navegando para o relatório de pedidos...
+[2025-10-30 14:25:23] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:25:23] [SUCCESS] ✅ Relatório de Pedidos acessado com sucesso.
+[2025-10-30 14:25:24] [DEBUG] Botão 'Próxima' desabilitado — fim da paginação MUI.
+[2025-10-30 14:25:24] [SUCCESS] Coleta MUI finalizada. Total registros coletados: 24
+[2025-10-30 14:25:24] [DEBUG] Índice MUI criado com 2 chaves únicas.
+[2025-10-30 14:25:24] [DEBUG] ✅ Verificação de qualidade OK para Matheus Linhares (7 pedidos).
+[2025-10-30 14:25:24] [WARN] Não foi possível ler a contagem de pedidos (Coluna 1) para ''. Pulando verificação.
+[2025-10-30 14:25:24] [DEBUG] Cruzamento concluído. Linhas produzidas: 8
+[2025-10-30 14:25:24] [SUCCESS]   ✅ SUCESSO na verificação de qualidade (Tentativa 1). Dados reconciliados.
+[2025-10-30 14:25:24] [SUCCESS]   ✅ Dados cruzados (modal × MUI) adicionados ao consolidado.
+[2025-10-30 14:25:25] [SUCCESS] 🏁 Fim do processamento de BOCA BURGUER na data 29/10/2025.
+[2025-10-30 14:25:25] [INFO] 
+======================================
+[2025-10-30 14:25:25] [INFO] 🧩 Etapa 2: INICIANDO PROCESSAMENTO → BRAYAN BURGER SUL | Data: 29/10/2025
+[2025-10-30 14:25:25] [INFO] 🔄 Mudando de loja: BOCA BURGUER → BRAYAN BURGER SUL
+[2025-10-30 14:25:25] [INFO] Mudando loja para: BRAYAN BURGER SUL (tentativa 1/2)
+[2025-10-30 14:25:25] [DEBUG] Botão 'Mudar loja' clicado.
+[2025-10-30 14:25:26] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:25:26] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:25:27] [WARN] ⚠️ Timeout ao aguardar interface pós-troca de loja. Tentando estabilizar novamente...
+[2025-10-30 14:25:27] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:25:27] [DEBUG] ✅ Sincronização pós-troca de loja realizada.
+[2025-10-30 14:25:27] [INFO] 📅 Aplicando filtros: 29/10/2025 07:00 → 30/10/2025 07:00
+[2025-10-30 14:25:27] [INFO] Aplicando filtros: 29/10/2025 07:00 a 30/10/2025 07:00
+[2025-10-30 14:25:29] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 14:25:31] [DEBUG] Loja 'BRAYAN BURGER SUL' selecionada no menu.
+[2025-10-30 14:25:33] [SUCCESS] Filtros aplicados. Aguardando a recarga dos dados.
+[2025-10-30 14:25:35] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:25:35] [SUCCESS] Loja 'BRAYAN BURGER SUL' agora está ativa e interface estabilizada.
+[2025-10-30 14:25:37] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:25:37] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:25:37] [INFO] Tentativa 1 de abrir o modal de entregas...
+[2025-10-30 14:25:37] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 14:25:37] [SUCCESS] Modal Resumo de entregas carregado.
+[2025-10-30 14:25:37] [DEBUG] Linhas encontradas na tabela: 3
+[2025-10-30 14:25:37] [DEBUG]   → Dados do modal (Controle Mestre) coletados (linhas: 3).
+[2025-10-30 14:25:37] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:25:37] [INFO]   Iniciando tentativa de coleta e verificação de qualidade 1/3...
+[2025-10-30 14:25:37] [DEBUG] Grid MUI detectado para coleta.
+[2025-10-30 14:25:37] [DEBUG] Resetando grid MUI para a primeira página...
+[2025-10-30 14:25:37] [DEBUG] Grid MUI resetado (Página 1 alcançada).
+[2025-10-30 14:25:38] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:25:39] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:25:39] [DEBUG] Setado 'Linhas por página' para 100 (quando disponível).
+[2025-10-30 14:25:39] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:25:39] [DEBUG] Extraindo 13 linhas da página atual do MUI.
+[2025-10-30 14:25:39] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:25:39] [INFO] Selecionando menu inicial...
+[2025-10-30 14:25:40] [DEBUG] Botão 'Próxima' desabilitado — fim da paginação MUI.
+[2025-10-30 14:25:40] [SUCCESS] Coleta MUI finalizada. Total registros coletados: 13
+[2025-10-30 14:25:40] [DEBUG] Índice MUI criado com 3 chaves únicas.
+[2025-10-30 14:25:40] [DEBUG] ✅ Verificação de qualidade OK para Antônio Davi clemente (6 pedidos).
+[2025-10-30 14:25:40] [DEBUG] ✅ Verificação de qualidade OK para Thiago Silva Morais (5 pedidos).
+[2025-10-30 14:25:40] [DEBUG] Ignorando verificação de qualidade para a linha 'Total'.
+[2025-10-30 14:25:40] [DEBUG] Cruzamento concluído. Linhas produzidas: 12
+[2025-10-30 14:25:40] [SUCCESS]   ✅ SUCESSO na verificação de qualidade (Tentativa 1). Dados reconciliados.
+[2025-10-30 14:25:40] [SUCCESS]   ✅ Dados cruzados (modal × MUI) adicionados ao consolidado.
+[2025-10-30 14:25:41] [INFO] Navegando para o relatório de pedidos...
+[2025-10-30 14:25:41] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:25:41] [SUCCESS] ✅ Relatório de Pedidos acessado com sucesso.
+[2025-10-30 14:25:41] [SUCCESS] 🏁 Fim do processamento de CATATAU LANCHES na data 29/10/2025.
+[2025-10-30 14:25:41] [INFO] 
+======================================
+[2025-10-30 14:25:41] [INFO] 🧩 Etapa 2: INICIANDO PROCESSAMENTO → Center Um - DE BEM COM A VIDA | Data: 29/10/2025
+[2025-10-30 14:25:41] [INFO] 🔄 Mudando de loja: CATATAU LANCHES → Center Um - DE BEM COM A VIDA
+[2025-10-30 14:25:41] [INFO] Mudando loja para: Center Um - DE BEM COM A VIDA (tentativa 1/2)
+[2025-10-30 14:25:41] [DEBUG] Botão 'Mudar loja' clicado.
+[2025-10-30 14:25:43] [WARN] ⚠️ Timeout ao aguardar interface pós-troca de loja. Tentando estabilizar novamente...
+[2025-10-30 14:25:44] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:25:44] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:25:45] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:25:45] [DEBUG] ✅ Sincronização pós-troca de loja realizada.
+[2025-10-30 14:25:45] [INFO] 📅 Aplicando filtros: 29/10/2025 07:00 → 30/10/2025 07:00
+[2025-10-30 14:25:45] [INFO] Aplicando filtros: 29/10/2025 07:00 a 30/10/2025 07:00
+[2025-10-30 14:25:45] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 14:25:47] [DEBUG] Loja 'Center Um - DE BEM COM A VIDA' selecionada no menu.
+[2025-10-30 14:25:51] [SUCCESS] Filtros aplicados. Aguardando a recarga dos dados.
+[2025-10-30 14:25:52] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:25:52] [SUCCESS] Loja 'Center Um - DE BEM COM A VIDA' agora está ativa e interface estabilizada.
+[2025-10-30 14:25:54] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:25:54] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:25:54] [INFO] Tentativa 1 de abrir o modal de entregas...
+[2025-10-30 14:25:54] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 14:25:55] [SUCCESS] Modal Resumo de entregas carregado.
+[2025-10-30 14:25:55] [DEBUG] Linhas encontradas na tabela: 5
+[2025-10-30 14:25:55] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:25:55] [DEBUG]   → Dados do modal (Controle Mestre) coletados (linhas: 5).
+[2025-10-30 14:25:55] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:25:55] [INFO]   Iniciando tentativa de coleta e verificação de qualidade 1/3...
+[2025-10-30 14:25:55] [DEBUG] Grid MUI detectado para coleta.
+[2025-10-30 14:25:55] [DEBUG] Resetando grid MUI para a primeira página...
+[2025-10-30 14:25:55] [DEBUG] Grid MUI resetado (Página 1 alcançada).
+[2025-10-30 14:25:56] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:25:56] [INFO] Selecionando menu inicial...
+[2025-10-30 14:25:57] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:25:57] [DEBUG] Setado 'Linhas por página' para 100 (quando disponível).
+[2025-10-30 14:25:57] [INFO] Navegando para o relatório de pedidos...
+[2025-10-30 14:25:57] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:25:57] [DEBUG] Extraindo 55 linhas da página atual do MUI.
+[2025-10-30 14:25:57] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:25:57] [SUCCESS] ✅ Relatório de Pedidos acessado com sucesso.
+[2025-10-30 14:26:00] [DEBUG] Botão 'Próxima' desabilitado — fim da paginação MUI.
+[2025-10-30 14:26:00] [SUCCESS] Coleta MUI finalizada. Total registros coletados: 55
+[2025-10-30 14:26:00] [DEBUG] Índice MUI criado com 5 chaves únicas.
+[2025-10-30 14:26:00] [DEBUG] ✅ Verificação de qualidade OK para Gabriela Fernandes Leite (15 pedidos).
+[2025-10-30 14:26:00] [DEBUG] ✅ Verificação de qualidade OK para Matheus Levi (14 pedidos).
+[2025-10-30 14:26:00] [DEBUG] ✅ Verificação de qualidade OK para Joao Gabriel Gomes de Queiroz (12 pedidos).
+[2025-10-30 14:26:00] [DEBUG] ✅ Verificação de qualidade OK para Nayana (11 pedidos).
+[2025-10-30 14:26:00] [DEBUG] Ignorando verificação de qualidade para a linha 'Total'.
+[2025-10-30 14:26:00] [DEBUG] Cruzamento concluído. Linhas produzidas: 53
+[2025-10-30 14:26:00] [SUCCESS]   ✅ SUCESSO na verificação de qualidade (Tentativa 1). Dados reconciliados.
+[2025-10-30 14:26:00] [SUCCESS]   ✅ Dados cruzados (modal × MUI) adicionados ao consolidado.
+[2025-10-30 14:26:00] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:26:00] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:26:01] [SUCCESS] 🏁 Fim do processamento de BRAYAN BURGER SUL na data 29/10/2025.
+[2025-10-30 14:26:01] [INFO] 
+======================================
+[2025-10-30 14:26:01] [INFO] 🧩 Etapa 2: INICIANDO PROCESSAMENTO → BUTECO DONA MARIA | Data: 29/10/2025
+[2025-10-30 14:26:01] [INFO] 🔄 Mudando de loja: BRAYAN BURGER SUL → BUTECO DONA MARIA
+[2025-10-30 14:26:01] [INFO] Mudando loja para: BUTECO DONA MARIA (tentativa 1/2)
+[2025-10-30 14:26:01] [DEBUG] Botão 'Mudar loja' clicado.
+[2025-10-30 14:26:01] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:26:01] [DEBUG] ✅ Sincronização pós-troca de loja realizada.
+[2025-10-30 14:26:01] [INFO] 📅 Aplicando filtros: 29/10/2025 07:00 → 30/10/2025 07:00
+[2025-10-30 14:26:01] [INFO] Aplicando filtros: 29/10/2025 07:00 a 30/10/2025 07:00
+[2025-10-30 14:26:03] [WARN] ⚠️ Timeout ao aguardar interface pós-troca de loja. Tentando estabilizar novamente...
+[2025-10-30 14:26:05] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 14:26:07] [DEBUG] Loja 'BUTECO DONA MARIA' selecionada no menu.
+[2025-10-30 14:26:08] [SUCCESS] Filtros aplicados. Aguardando a recarga dos dados.
+[2025-10-30 14:26:11] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:26:11] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:26:11] [INFO] Tentativa 1 de abrir o modal de entregas...
+[2025-10-30 14:26:11] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 14:26:11] [SUCCESS] Modal Resumo de entregas carregado.
+[2025-10-30 14:26:11] [DEBUG] Linhas encontradas na tabela: 2
+[2025-10-30 14:26:11] [DEBUG]   → Dados do modal (Controle Mestre) coletados (linhas: 2).
+[2025-10-30 14:26:12] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:26:12] [INFO]   Iniciando tentativa de coleta e verificação de qualidade 1/3...
+[2025-10-30 14:26:12] [DEBUG] Grid MUI detectado para coleta.
+[2025-10-30 14:26:12] [DEBUG] Resetando grid MUI para a primeira página...
+[2025-10-30 14:26:12] [DEBUG] Grid MUI resetado (Página 1 alcançada).
+[2025-10-30 14:26:12] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:26:12] [SUCCESS] Loja 'BUTECO DONA MARIA' agora está ativa e interface estabilizada.
+[2025-10-30 14:26:13] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:26:13] [DEBUG] Setado 'Linhas por página' para 100 (quando disponível).
+[2025-10-30 14:26:14] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:26:14] [DEBUG] Extraindo 12 linhas da página atual do MUI.
+[2025-10-30 14:26:14] [DEBUG] Botão 'Próxima' desabilitado — fim da paginação MUI.
+[2025-10-30 14:26:14] [SUCCESS] Coleta MUI finalizada. Total registros coletados: 12
+[2025-10-30 14:26:14] [DEBUG] Índice MUI criado com 1 chaves únicas.
+[2025-10-30 14:26:14] [DEBUG] ✅ Verificação de qualidade OK para Wesley Rodrigues de Sousa (12 pedidos).
+[2025-10-30 14:26:14] [WARN] Não foi possível ler a contagem de pedidos (Coluna 1) para ''. Pulando verificação.
+[2025-10-30 14:26:14] [DEBUG] Cruzamento concluído. Linhas produzidas: 13
+[2025-10-30 14:26:14] [SUCCESS]   ✅ SUCESSO na verificação de qualidade (Tentativa 1). Dados reconciliados.
+[2025-10-30 14:26:14] [SUCCESS]   ✅ Dados cruzados (modal × MUI) adicionados ao consolidado.
+[2025-10-30 14:26:15] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:26:15] [SUCCESS] 🏁 Fim do processamento de Center Um - DE BEM COM A VIDA na data 29/10/2025.
+[2025-10-30 14:26:15] [INFO] 
+======================================
+[2025-10-30 14:26:15] [INFO] 🧩 Etapa 2: INICIANDO PROCESSAMENTO → CHEPPITOS 13 DE MAIO | Data: 29/10/2025
+[2025-10-30 14:26:15] [INFO] 🔄 Mudando de loja: Center Um - DE BEM COM A VIDA → CHEPPITOS 13 DE MAIO
+[2025-10-30 14:26:15] [INFO] Mudando loja para: CHEPPITOS 13 DE MAIO (tentativa 1/2)
+[2025-10-30 14:26:16] [DEBUG] Botão 'Mudar loja' clicado.
+[2025-10-30 14:26:16] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:26:16] [INFO] Selecionando menu inicial...
+[2025-10-30 14:26:18] [INFO] Navegando para o relatório de pedidos...
+[2025-10-30 14:26:18] [WARN] ⚠️ Timeout ao aguardar interface pós-troca de loja. Tentando estabilizar novamente...
+[2025-10-30 14:26:18] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:26:18] [SUCCESS] ✅ Relatório de Pedidos acessado com sucesso.
+[2025-10-30 14:26:20] [WARN] ⚠️ Timeout ao aguardar estabilização de interface.
+[2025-10-30 14:26:21] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:26:21] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:26:21] [DEBUG] Loja 'CHEPPITOS 13 DE MAIO' selecionada no menu.
+[2025-10-30 14:26:22] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:26:22] [DEBUG] ✅ Sincronização pós-troca de loja realizada.
+[2025-10-30 14:26:22] [INFO] 📅 Aplicando filtros: 29/10/2025 07:00 → 30/10/2025 07:00
+[2025-10-30 14:26:22] [INFO] Aplicando filtros: 29/10/2025 07:00 a 30/10/2025 07:00
+[2025-10-30 14:26:26] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:26:26] [SUCCESS] Loja 'CHEPPITOS 13 DE MAIO' agora está ativa e interface estabilizada.
+[2025-10-30 14:26:29] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:26:30] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:26:30] [INFO] Selecionando menu inicial...
+[2025-10-30 14:26:31] [SUCCESS] Filtros aplicados. Aguardando a recarga dos dados.
+[2025-10-30 14:26:32] [INFO] Navegando para o relatório de pedidos...
+[2025-10-30 14:26:32] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:26:32] [SUCCESS] ✅ Relatório de Pedidos acessado com sucesso.
+[2025-10-30 14:26:34] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:26:34] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:26:34] [INFO] Tentativa 1 de abrir o modal de entregas...
+[2025-10-30 14:26:34] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 14:26:35] [SUCCESS] Modal Resumo de entregas carregado.
+[2025-10-30 14:26:35] [DEBUG] Linhas encontradas na tabela: 8
+[2025-10-30 14:26:35] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:26:35] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:26:35] [DEBUG]   → Dados do modal (Controle Mestre) coletados (linhas: 8).
+[2025-10-30 14:26:35] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:26:35] [INFO]   Iniciando tentativa de coleta e verificação de qualidade 1/3...
+[2025-10-30 14:26:35] [DEBUG] Grid MUI detectado para coleta.
+[2025-10-30 14:26:35] [DEBUG] Resetando grid MUI para a primeira página...
+[2025-10-30 14:26:35] [DEBUG] Grid MUI resetado (Página 1 alcançada).
+[2025-10-30 14:26:36] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:26:36] [DEBUG] ✅ Sincronização pós-troca de loja realizada.
+[2025-10-30 14:26:36] [INFO] 📅 Aplicando filtros: 29/10/2025 07:00 → 30/10/2025 07:00
+[2025-10-30 14:26:36] [INFO] Aplicando filtros: 29/10/2025 07:00 a 30/10/2025 07:00
+[2025-10-30 14:26:37] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:26:37] [DEBUG] Setado 'Linhas por página' para 100 (quando disponível).
+[2025-10-30 14:26:37] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:26:37] [DEBUG] Extraindo 80 linhas da página atual do MUI.
+[2025-10-30 14:26:41] [DEBUG] Botão 'Próxima' desabilitado — fim da paginação MUI.
+[2025-10-30 14:26:41] [SUCCESS] Coleta MUI finalizada. Total registros coletados: 80
+[2025-10-30 14:26:41] [DEBUG] Índice MUI criado com 8 chaves únicas.
+[2025-10-30 14:26:41] [DEBUG] ✅ Verificação de qualidade OK para Ryan sousa (17 pedidos).
+[2025-10-30 14:26:41] [DEBUG] ✅ Verificação de qualidade OK para Felipe Nero 2482 (12 pedidos).
+[2025-10-30 14:26:41] [DEBUG] ✅ Verificação de qualidade OK para Matheus Sousa Xavier (11 pedidos).
+[2025-10-30 14:26:41] [DEBUG] ✅ Verificação de qualidade OK para Emanoel Vicente silva de Freitas junior (10 pedidos).
+[2025-10-30 14:26:41] [DEBUG] ✅ Verificação de qualidade OK para Natanael Bastos Oliveira (10 pedidos).
+[2025-10-30 14:26:41] [DEBUG] ✅ Verificação de qualidade OK para Mikael Nobre (8 pedidos).
+[2025-10-30 14:26:41] [DEBUG] ✅ Verificação de qualidade OK para Leonardo Nogueira de Araújo (8 pedidos).
+[2025-10-30 14:26:41] [DEBUG] Ignorando verificação de qualidade para a linha 'Total'.
+[2025-10-30 14:26:41] [DEBUG] Cruzamento concluído. Linhas produzidas: 77
+[2025-10-30 14:26:41] [SUCCESS]   ✅ SUCESSO na verificação de qualidade (Tentativa 1). Dados reconciliados.
+[2025-10-30 14:26:41] [SUCCESS]   ✅ Dados cruzados (modal × MUI) adicionados ao consolidado.
+[2025-10-30 14:26:42] [SUCCESS] Filtros aplicados. Aguardando a recarga dos dados.
+[2025-10-30 14:26:42] [SUCCESS] 🏁 Fim do processamento de BUTECO DONA MARIA na data 29/10/2025.
+[2025-10-30 14:26:42] [INFO] ======================================
+[2025-10-30 14:26:42] [INFO] 📊 RESUMO FINAL DE CAPTURA DE DADOS:
+[2025-10-30 14:26:42] [INFO]   - ARRETADO DOCES: PENDENTE
+[2025-10-30 14:26:42] [INFO]   - BEBELU SANDUICHES - Glória Mall: SUCESSO
+[2025-10-30 14:26:42] [INFO]   - BOCA BURGUER: SUCESSO
+[2025-10-30 14:26:42] [INFO]   - BRAYAN BURGER SUL: SUCESSO
+[2025-10-30 14:26:42] [INFO]   - BUTECO DONA MARIA: SUCESSO
+[2025-10-30 14:26:42] [SUCCESS] Resumo geral → SUCESSO: 4; AVISO QUALIDADE: 0; PENDENTE: 1
+[2025-10-30 14:26:42] [DEBUG] Coluna 'Classificação do Turno' adicionada com sucesso.
+[2025-10-30 14:26:42] [DEBUG] Colunas 'Classificação do Dia' e 'Pagamento por Turno' adicionadas com sucesso.
+[2025-10-30 14:26:42] [SUCCESS] Exportação CONSOLIDADA concluída com sucesso: base/resumo_entregadores_T1_20251030_142642.csv
+[2025-10-30 14:26:42] [SUCCESS] [THREAD 1] Lote concluído com sucesso.
+[2025-10-30 14:26:42] [INFO] [THREAD 1] Driver encerrado.
+[2025-10-30 14:26:45] [WARN] ⏳ Timeout: elemento não ficou clicável (css selector, button[aria-label='close'])
+[2025-10-30 14:26:45] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:26:45] [INFO] Tentativa 1 de abrir o modal de entregas...
+[2025-10-30 14:26:45] [INFO] Clicando no botão 'Resumo de entregas por entregador'...
+[2025-10-30 14:26:46] [SUCCESS] Modal Resumo de entregas carregado.
+[2025-10-30 14:26:46] [DEBUG] Linhas encontradas na tabela: 6
+[2025-10-30 14:26:46] [DEBUG]   → Dados do modal (Controle Mestre) coletados (linhas: 6).
+[2025-10-30 14:26:46] [INFO] Popup fechado com sucesso.
+[2025-10-30 14:26:46] [INFO]   Iniciando tentativa de coleta e verificação de qualidade 1/3...
+[2025-10-30 14:26:46] [DEBUG] Grid MUI detectado para coleta.
+[2025-10-30 14:26:46] [DEBUG] Resetando grid MUI para a primeira página...
+[2025-10-30 14:26:46] [DEBUG] Grid MUI resetado (Página 1 alcançada).
+[2025-10-30 14:26:47] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:26:47] [DEBUG] Setado 'Linhas por página' para 100 (quando disponível).
+[2025-10-30 14:26:48] [DEBUG] Interface estabilizada (body liberado e backdrop ausente).
+[2025-10-30 14:26:48] [DEBUG] Extraindo 74 linhas da página atual do MUI.
+[2025-10-30 14:26:52] [DEBUG] Botão 'Próxima' desabilitado — fim da paginação MUI.
+[2025-10-30 14:26:52] [SUCCESS] Coleta MUI finalizada. Total registros coletados: 74
+[2025-10-30 14:26:52] [DEBUG] Índice MUI criado com 6 chaves únicas.
+[2025-10-30 14:26:52] [DEBUG] ✅ Verificação de qualidade OK para Alessandro miguel (22 pedidos).
+[2025-10-30 14:26:52] [DEBUG] ✅ Verificação de qualidade OK para Thyago Barros rosa (20 pedidos).
+[2025-10-30 14:26:52] [DEBUG] ✅ Verificação de qualidade OK para Marcos Vinicius (14 pedidos).
+[2025-10-30 14:26:52] [DEBUG] ✅ Verificação de qualidade OK para wagner Maciel da Silva (9 pedidos).
+[2025-10-30 14:26:52] [DEBUG] ✅ Verificação de qualidade OK para Lucas Kauã de Souza Alves (7 pedidos).
+[2025-10-30 14:26:52] [DEBUG] Ignorando verificação de qualidade para a linha 'Total'.
+[2025-10-30 14:26:52] [DEBUG] Cruzamento concluído. Linhas produzidas: 73
+[2025-10-30 14:26:52] [SUCCESS]   ✅ SUCESSO na verificação de qualidade (Tentativa 1). Dados reconciliados.
+[2025-10-30 14:26:52] [SUCCESS]   ✅ Dados cruzados (modal × MUI) adicionados ao consolidado.
+[2025-10-30 14:26:53] [SUCCESS] 🏁 Fim do processamento de CHEPPITOS 13 DE MAIO na data 29/10/2025.
+[2025-10-30 14:26:53] [INFO] ======================================
+[2025-10-30 14:26:53] [INFO] 📊 RESUMO FINAL DE CAPTURA DE DADOS:
+[2025-10-30 14:26:53] [INFO]   - CALORENTOS BURGUER: SUCESSO
+[2025-10-30 14:26:53] [INFO]   - CAMARAO TO GO PARANGABA: SUCESSO
+[2025-10-30 14:26:53] [INFO]   - CATATAU LANCHES: SUCESSO
+[2025-10-30 14:26:53] [INFO]   - Center Um - DE BEM COM A VIDA: SUCESSO
+[2025-10-30 14:26:53] [INFO]   - CHEPPITOS 13 DE MAIO: SUCESSO
+[2025-10-30 14:26:53] [SUCCESS] Resumo geral → SUCESSO: 5; AVISO QUALIDADE: 0; PENDENTE: 0
+[2025-10-30 14:26:53] [DEBUG] Coluna 'Classificação do Turno' adicionada com sucesso.
+[2025-10-30 14:26:53] [DEBUG] Colunas 'Classificação do Dia' e 'Pagamento por Turno' adicionadas com sucesso.
+[2025-10-30 14:26:53] [SUCCESS] Exportação CONSOLIDADA concluída com sucesso: base/resumo_entregadores_T2_20251030_142653.csv
+[2025-10-30 14:26:53] [SUCCESS] [THREAD 2] Lote concluído com sucesso.
+[2025-10-30 14:26:53] [INFO] [THREAD 2] Driver encerrado.
+[2025-10-30 14:26:53] [DEBUG] Mesclagem: carregado base/resumo_entregadores_T1_20251030_142642.csv (141 linhas).
+[2025-10-30 14:26:53] [DEBUG] Mesclagem: carregado base/resumo_entregadores_T2_20251030_142653.csv (272 linhas).
+[2025-10-30 14:26:53] [SUCCESS] ✅ CSV final mesclado gerado: base/resumo_entregadores_FINAL_29-10-2025_20251030_142653.csv (total 413 linhas)
+[2025-10-30 14:26:53] [SUCCESS] ✅ Execução multithread concluída com sucesso.
+[2025-10-30 14:26:53] [INFO] Duração total: 0:03:33.234721
+[2025-10-30 14:26:53] [INFO] XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
